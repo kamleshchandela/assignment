@@ -1,12 +1,12 @@
-// 26. Inverted Pyramid (Stars)
+// 37. Reverse Left-Aligned Triangle (Stars)
 // Input: n = 5
 
-// *********
-//  *******
-//   *****
-//    ***
+// *****
+//  ****
+//   ***
+//    **
 //     *
-// Description: Upside-down version of full pyramid (Q13). Hint: Spaces increase, stars decrease using 2*(n-row)+1. Difficulty: Medium
+// Description: Stars decrease while shifting leftward. Hint: Spaces = row count, stars decrease accordingly. Difficulty: Medium
 
 #include <stdio.h>
 
@@ -20,7 +20,7 @@ int main()
         {
             printf(" ");
         }
-        for (int j = 0; j < ((n - i) * 2) - 1; j++)
+        for (int j = 0; j < n - i; j++)
         {
             printf("*");
         }
