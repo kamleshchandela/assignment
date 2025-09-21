@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    border: 3px solid;
+    height: 800px;
+}
+
+body{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758368772/330px-Pindi_Stadium_fyhcoe.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    
+}
+#ind{
+    background-color: orange;
+}
+
+
+
+
+.card1{
+    border: 2px solid;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    border-radius: 30px;
+    color: black;
+    margin-top: 130px;
+    
+    
+    
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+
+}
+
+
+.qwe{
+    border: 2px solid;
+    text-align: center;
+    margin-top: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.allbu{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 70px;
+    
+}
+
+#butt1{
+    border: 5px solid;
+    width: 80px;
+    height: 80px;
+    background: rgb(0, 255, 8);
+    border-radius: 30px;
+    
+}
+
+#butt2{
+    border: 5px solid;
+    width: 80px;
+    height: 80px;
+    background: rgb(255, 0, 0);
+    border-radius: 30px;
+    
+}

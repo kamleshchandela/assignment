@@ -1,0 +1,32 @@
+.main{
+    background-color: black;
+    justify-self: center;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+
+
+}
+
+.ans{
+    color: white;
+    text-align: end;
+    padding-right: 20px;
+    padding-top: 10px;
+
+
+}
+
+.num{
+    color: white;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    align-content: center;
+    border-radius: 50%;
+}
+

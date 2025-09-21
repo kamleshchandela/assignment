@@ -17,6 +17,10 @@
 
 // Confusion about whether the row is a palindrome or just an increasing odd count — specify which you want. Difficulty: Medium
 
+
+
+// method 1
+
 #include <stdio.h>
 
 int main()
@@ -39,3 +43,41 @@ int main()
     }
     return 0;
 }
+
+
+// method 2
+
+
+#include <stdio.h>
+
+
+   int main()
+{   int n;
+    scanf("%d",&n);
+    for (int i=1;i<=n;i++){
+        int count=1;
+        for(int j=1;j<(2*n);j++){
+            if(j<=n-i){
+                printf(" "); 
+            }
+            else{
+                printf("%d",count);
+                count++;
+                if(count>(i*2)-1){
+                    break;
+                }
+            }
+            
+            
+        }
+        printf("\n");
+    }
+    
+
+    return 0;
+}
+
+
+
+
+

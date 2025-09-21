@@ -19,6 +19,12 @@
 
 // Printing 2*r or 2*r+1 stars by mistake; incorrect number of spaces. Difficulty: Medium
 
+
+
+// method 1
+
+
+
 #include <stdio.h>
 
 int main()
@@ -41,3 +47,66 @@ int main()
     }
     return 0;
 }
+
+
+
+
+// method 2
+
+
+
+
+
+#include <stdio.h>
+
+int main()
+{   int n;
+    scanf("%d",&n);
+    for (int i=0;i<n;i++){
+        int count=0;
+        for(int j=0;j<(2*n)-1;j++){
+            if(j<(n-1)-i || j>=(n+i)){
+                printf(" "); 
+            }
+            else{
+                printf("*");
+            }
+            
+            
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+
+//method 3
+
+
+#include <stdio.h>
+
+
+   int main()
+{   int n;
+    scanf("%d",&n);
+    for (int i=1;i<=n;i++){
+        int count=0;
+        for(int j=1;j<=(2*n)-1;j++){
+            if(j<n-i+1 || j>n+i-1){
+                printf(" "); 
+            }
+            else{
+                printf("*");
+            }
+            
+            
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+
+
+
+
