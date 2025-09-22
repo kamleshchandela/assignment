@@ -1,0 +1,44 @@
+.logo{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758532911/logo_1_fecvac.jpg); 
+    background-repeat: no-repeat; 
+    margin-left: 1200px;
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    
+
+
+
+
+}
+
+
+.all{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758532912/backgroud_1_cb2jlv.png);position: scr;
+    background-repeat: no-repeat;
+    background-size:100% ;
+    
+    
+    height: 1700px;
+    width: 2000px;
+    background-attachment: fixed;
+    z-index: auto;
+    
+
+   
+   
+
+}
+
+
+
+.data{
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
