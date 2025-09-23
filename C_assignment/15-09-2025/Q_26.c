@@ -8,6 +8,11 @@
 //     *
 // Description: Upside-down version of full pyramid (Q13). Hint: Spaces increase, stars decrease using 2*(n-row)+1. Difficulty: Medium
 
+
+
+// method 1
+
+
 #include <stdio.h>
 
 int main()
@@ -29,3 +34,33 @@ int main()
 
     return 0;
 }
+
+
+
+// method 2
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=(2*n)-1;j++){
+            if(j>=i && j<((2*n)-i+1)){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+
+
+ 
