@@ -1,0 +1,200 @@
+/* simbol */
+
+.nav{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758630215/kw-logo_ejsczb.png);
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+
+    gap: 1200px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.ok1{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758630219/cart-icon_u7hcgq.png);
+    margin-top: 10px;
+    width: 100px;
+    height: 60px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.innav2{
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+/* main img */
+
+.mainimg{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758630218/kw-background_pqxpy4.png);
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+    
+    color: aliceblue;
+    font-size: 70px;
+    text-align: left;
+    
+}
+
+
+/* main photo text */
+
+.text{
+    margin-left: 50px;
+    align-content: center;
+     
+    
+}
+
+/* section arenge ment */
+
+
+.section1, .section1data{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+
+
+/* secion 1 img */
+
+.img11{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758630222/book1_xixwgc.png);
+    background-size: 100%;
+    width: 200px;
+    height: 275px;
+    background-repeat: no-repeat;
+}
+.img12{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758630224/book2_hgtt5r.png);
+    background-size: 100%;
+    width: 200px;
+    height: 275px;
+    background-repeat: no-repeat;
+}
+.img13{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758630222/book3_gxnelu.png);
+    background-size: 100%;
+    width: 200px;
+    height: 275px;
+    background-repeat: no-repeat;
+}
+.img14{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758630223/book4_ied2pi.png);
+    background-size: 100%;
+    width: 200px;
+    height: 275px;
+    background-repeat: no-repeat;
+}
+.img15{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758630222/book5_vl3hve.png);
+    background-size: 100%;
+    width: 200px;
+    height: 275px;
+    background-repeat: no-repeat;
+}
+.img16{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758630221/book6_dvcxcp.png);
+    background-size: 100%;
+    width: 200px;
+    height: 275px;
+    background-repeat: no-repeat;
+}
+
+
+/* secion 2 img */
+
+.img21{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758630219/dart-board_mcj9dg.png);
+    background-size: 100%;
+    width: 300px;
+    height: 275px;
+    background-repeat: no-repeat;
+}
+.img22{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758630218/connect-four_tufsrc.png);
+    background-size: 100%;
+    width: 300px;
+    height: 275px;
+    background-repeat: no-repeat;
+}
+.img23{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758630219/jenga_rojfvx.png);
+    background-size: 100%;
+    width: 300px;
+    height: 275px;
+    background-repeat: no-repeat;
+}
+.img24{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758630215/monopoly_cwjjnq.png);
+    background-size: 100%;
+    width: 300px;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+
+/* secion 3 img */
+
+.img31{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758630221/bookmarks_jzsd58.png);
+    background-size: 100%;
+    width: 300px;
+    height: 275px;
+    background-repeat: no-repeat;
+}
+.img32{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758630215/birthday-card_z5ozxt.png);
+    background-size: 100%;
+    width: 300px;
+    height: 275px;
+    background-repeat: no-repeat;
+}
+.img33{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758630215/stuffed-toy_p67kcr.png);
+    background-size: 100%;
+    width: 300px;
+    height: 275px;
+    background-repeat: no-repeat;
+}
+.img34{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758630218/dream-catcher_xldxum.png);
+    background-size: 100%;
+    width: 300px;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 280px;
+}
+
+.section2data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.data1{
+    width: 300px;
+}
