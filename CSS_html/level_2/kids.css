@@ -9,10 +9,13 @@
 
     gap: 1200px;
     background-repeat: no-repeat;
+    align-self: center;
+
 }
 
-
-
+span:hover{
+    transform: scale(1.1);
+}
 
 .ok1{
     background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758630219/cart-icon_u7hcgq.png);
@@ -22,12 +25,15 @@
     background-repeat: no-repeat;
 }
 
-
+.ok2{
+    width: 100px;
+}
 
 
 .innav2{
     display: flex;
     align-items: center;
+    
 
 
 }

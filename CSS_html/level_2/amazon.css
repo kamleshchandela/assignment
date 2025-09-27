@@ -1,0 +1,152 @@
+.nav{
+    background-color: rgb(26, 25, 25);
+    height: 70px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.color1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 150px;
+}
+
+.navdata{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.line{
+    display: flex;
+    color: black;
+    gap: 10px;
+    background-color: white;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 15px;
+    align-items: center;
+    width: 60px;
+    justify-content: center;
+}
+
+.line1{
+    display: flex;
+    align-items: center;
+}
+
+.line2{
+    display: flex;
+    gap:8px;
+}
+
+input{
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+/* nav 2 */
+
+.nav2{
+    background-color: rgb(40, 34, 51);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mainimg{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758966424/background_picture_gsic1p.png);
+    background-size: cover;
+    width: 1416px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+}
+
+.arrow{
+    display: flex;
+    gap: 1320px;
+    margin-left: 20px;
+    margin-top: 100px;
+    
+}
+
+.section{
+    
+    height: 330px;
+    width: 1416px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.part{
+    background-color: white;
+    width: 300px;
+    height: 305px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+
+.part1{
+   
+    width: 300px;
+    height: 305px;
+    border-radius: 10px;
+
+}
+
+.font{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.sline{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.p1{
+    background-color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 270px;
+    height: 120px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+
+   
+}
+
+.section [alt]{
+    border-radius: 10px;
+}
+
+[alt]:hover{
+    transform: scale(1.05);
+    transition: all 0.25s ease-out;
+   
+
+}
+
+
+
+
+
+
+
