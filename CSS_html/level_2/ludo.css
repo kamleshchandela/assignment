@@ -1,0 +1,32 @@
+.main{
+    
+    /* border: 1px solid red; */
+    width: 400px;
+    height: 400px;
+  }
+.c1{
+    width:25px; 
+    height:25px; 
+    border:2px solid red;
+     border-radius:50%;
+}
+.c2{
+    width:25px; 
+    height:25px; 
+    border:2px solid rgb(29, 199, 37);
+     border-radius:50%;
+}
+.c3{
+    width:25px; 
+    height:25px; 
+    border:2px solid rgb(40, 88, 184);
+     border-radius:50%;
+}
+.c4{ 
+    width:25px; 
+    height:25px; 
+    border:2px solid rgb(249, 232, 38);
+     border-radius:50%;
+     
+} 
+
