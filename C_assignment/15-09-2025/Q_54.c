@@ -12,6 +12,9 @@
 //     *
 // Description: Diamond outline only. Hint: Use hollow pyramid + inverted hollow pyramid. Difficulty: Medium
 
+
+
+
 #include <stdio.h>
 
 

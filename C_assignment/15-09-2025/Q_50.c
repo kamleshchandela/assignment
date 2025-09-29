@@ -12,11 +12,12 @@
 
 int main()
 {
-   int n,num=15;
+   int n;
    scanf("%d",&n);
+   int num=(n*(n+1)/2);
    for(int i=1;i<=n;i++){
        for(int j=n;j>n-i;j--){
-           printf("%i\t",num);
+           printf("%2d",num);
            num=num-1;
        }
        printf("\n");
