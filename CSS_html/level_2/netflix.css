@@ -1,16 +1,16 @@
 .left{
     display: flex;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 2vmin;
     align-items: center;
-    gap: 20px;
+    gap: 3vmin;
 
 }
 
 .right{
     display: flex;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 2vmin;
     align-items: center;
     gap: 20px;
 
@@ -155,7 +155,8 @@
 }
 
 [alt]:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
 
 }
 
