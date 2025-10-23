@@ -13,6 +13,12 @@
     color: white;
 }
 
+@media screen and (max-width:800px) {
+    .left{
+        display: none;
+    }
+}
+
 .logo{
     margin-left: 60px;
     margin-top: 20px;

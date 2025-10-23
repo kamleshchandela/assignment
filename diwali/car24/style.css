@@ -1,0 +1,245 @@
+*{
+    margin: opx;
+    padding: 0px;
+}
+
+body{
+    font-family: Inter, InterNeue, Inter Neue, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.main{
+    width: 100%;
+    height: 500vw;
+    border: 5px solid green;
+}
+
+nav{
+    width: 100%;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid green; */
+    gap: 4vw;
+    position: fixed;
+    top: 0vw;
+    background-color: white;
+}
+
+.logoimg{
+    width: 6vw;
+    /* border: 2px solid black; */
+    object-fit: cover;
+}
+
+.gap{
+    display: flex;
+    width: 41%;
+    height: 3vw;
+    justify-content: start;
+    align-items: center;
+    /* border: 5px solid green; */
+}
+
+.state{
+    width: 8vw;
+    height: 2.5vw;
+    /* border: 2px solid black; */
+    object-fit: cover;
+    border-radius: 1vw ;
+    background-color: rgb(241, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5vw;
+    transition: all 1s;
+    font-weight: bold;
+
+}
+.state:hover{
+    font-size: 1.05rem;
+    
+}
+
+.state1{
+    width: 10vw;
+    height: 2.5vw;
+    /* border: 2px solid black; */
+    object-fit: cover;
+    border-radius: 1vw ;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5vw;
+    font-weight: bold;
+
+}
+.state1:hover{
+    font-size: 1.05rem;
+    font-weight: bold;
+    border: 2px solid black;
+
+}
+
+.state3{
+    width: 8vw;
+    height: 2.5vw;
+    border: 2px solid black;
+    object-fit: cover;
+    border-radius: 1vw ;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5vw;
+    transition: all 1s;
+    font-weight: bold;
+
+}
+.state3:hover{
+    font-size: 1.05rem;
+    font-weight: bold;
+
+}
+
+.state4{
+    width: 10vw;
+    height: 2.5vw;
+    border: 2px solid black;
+    object-fit: cover;
+    border-radius: 1vw ;
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5vw;
+    transition: all 1s;
+    font-weight: bold;
+
+}
+.state4:hover{
+    font-size: 1.05rem;
+    font-weight: bold;
+
+}
+
+.f{
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.f1{
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+.mainimg{
+    width: 100%;
+    height: 50vw;
+    margin-top: 5vw;
+    /* border: 5px solid red; */
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1761236099/47a35bf4-18e7-49e4-9bea-b2dfc57c64e1-hero-image-desktop_xvmwkq.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.cariw{
+    width: 5vw;
+}
+
+.maindata{
+    width: 70%;
+    border-radius: 1vw;
+    height: 18vw;
+    /* border: 2px solid green; */
+    box-shadow: 5px 5px 20px;
+    background-color: white;
+    margin-top: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.cari{
+    width: 6vw;
+    height: 8.5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1vw;
+    cursor: pointer;
+    transition: all 0.5s;
+    /* border: 2px solid black; */
+}
+.cari:hover{
+    width: 6vw;
+    height: 8.5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightgrey;
+    /* border: 2px solid black; */
+}
+
+.disf{
+    display: flex;
+    width: 100%;
+    height: 9vw;
+    /* border: 3px solid red; */
+    justify-content: space-evenly;
+}
+.disf1{
+    display: flex;
+    width: 100%;
+    height: 4vw;
+    /* border: 3px solid red; */
+    justify-content: space-evenly;
+}
+
+.cariw1{
+    width: 6vw;
+    height: 3vw;
+    /* border: 2px solid black; */
+    text-align: center;
+    font-weight : 550;
+}
+
+.input{
+    width: 95%;
+    height: 3vw;
+    /* border: 2px solid black ; */
+    border-radius: 1vw;
+    padding-left: 2vw;
+    font-weight: bold;
+    font-size: 1vw;
+    letter-spacing: 0.05vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
