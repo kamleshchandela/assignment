@@ -11,8 +11,13 @@ body{
 
 .main{
     width: 100%;
-    height: 500vw;
-    border: 5px solid green;
+    height: 270vw;
+    /* border: 5px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vw;
+    overflow: hidden;
 }
 
 nav{
@@ -25,11 +30,13 @@ nav{
     gap: 4vw;
     position: fixed;
     top: 0vw;
+    z-index: 1;
     background-color: white;
 }
 
 .logoimg{
     width: 6vw;
+    cursor: pointer;
     /* border: 2px solid black; */
     object-fit: cover;
 }
@@ -44,7 +51,7 @@ nav{
 }
 
 .state{
-    width: 8vw;
+    width: 10vw;
     height: 2.5vw;
     /* border: 2px solid black; */
     object-fit: cover;
@@ -109,7 +116,7 @@ nav{
 .state4{
     width: 10vw;
     height: 2.5vw;
-    border: 2px solid black;
+    border: 0.1vw solid black;
     object-fit: cover;
     border-radius: 1vw ;
     background-color: white;
@@ -143,7 +150,7 @@ nav{
 .mainimg{
     width: 100%;
     height: 50vw;
-    margin-top: 5vw;
+    margin-top: 4vw;
     /* border: 5px solid red; */
     background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1761236099/47a35bf4-18e7-49e4-9bea-b2dfc57c64e1-hero-image-desktop_xvmwkq.webp);
     background-size: 100%;
@@ -228,6 +235,301 @@ nav{
     letter-spacing: 0.05vw;
 }
 
+.advatai1{
+    width: 100%;
+    height: 10vw;
+    /* border: 4px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+.advatai1i{
+    height: 10vw;
+}
+
+.saiz{
+    width: 1.2vw;
+}
+
+.section1{
+    width: 100%;
+    height: 60vw;
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.t1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    width: 100%;
+    height: 5vw;
+    padding-left: 15vw;
+    /* border: 5px solid yellow; */
+    /* text-align: center; */
+}
+
+.overflow{
+    width: 100%;
+    height: 33vw;
+    /* border: 4px solid red; */
+    overflow-x: hidden;
+}
+.scrol1{
+    width: 100%;
+    height: 32vw;
+    display: flex;
+    gap: 5vw;
+    padding-left: 7vw ;
+    transition: all 1s;
+    /* border: 4px solid black; */
+}
+.scrol2{
+    width: 100%;
+    height: 32vw;
+    display: flex;
+    gap: 5vw;
+    padding-left: 7vw ;
+    padding-right: 7vw ;
+    transition: all 1s;
+    /* border: 4px solid black; */
+}
+.img1{
+    width: 25vw;
+    height: 32vw;
+    /* border: 4px solid black; */
+    /* background-color: #175a87; */
+}
+.arrow{
+    width: 100%;
+    height: 5vw;
+    /* border: 3px solid green; */
+    position: relative;
+    margin-top: -20vw;
+    display: flex;
+    justify-content: center;
+    gap: 85vw;
+    cursor: pointer;
+}
+.arrow1{
+    width: 5vw;
+    transform: rotate(-90deg);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    /* border: 3px solid green; */
+}
+.arrow2{
+    width: 5vw;
+    transform: rotate(90deg);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    /* border: 3px solid green; */
+}
+.arrow3{
+    width: 5vw;
+    transform: rotate(-90deg);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    /* border: 3px solid green; */
+}
+.arrow4{
+    width: 5vw;
+    transform: rotate(90deg);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    /* border: 3px solid green; */
+}
+.scroli1{
+    width: 25vw;
+    object-fit: cover;
+    cursor: pointer;
+    
+}
+.scroli2{
+    width: 19vw;
+    object-fit: cover;
+    cursor: pointer;
+    
+}
+
+.section2{
+    width: 100%;
+    height: 40vw;
+    /* border: 5px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.section2data{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20vw;
+    border-radius: 4vw;
+    background: linear-gradient(to top,lightblue,white);              
+    /* border: 5px solid black; */
+    justify-content: start;
+    gap: 1.5vw;
+    
+    
+}
+
+.section2btndispf{
+    display: flex;
+    width: 75vw;
+    height: 5vw;
+    /* border: 3px solid red; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section2btn1{
+    width: 24vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 4vw;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: lightblue;
+    cursor: pointer;
+    
+}
+.section2btn2{
+    width: 24vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 4vw;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.section2btn3{
+    width: 24vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 4vw;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.section2btn1data{
+    /* btn 11111111 */
+
+    width: 75vw;
+    height: 11vw;
+    /* border: 3px solid green; */
+    display: flex;
+    gap: 1vw;
+    
+    display: flex;
+}
+
+.section2btn1dataimg1{
+    width: 15vw;
+    height: 10vw;
+    border: 2px solid black;
+    display: flex;
+    border-radius: 2vw;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+
+    
+}
+
+.section2btn1dataimg1w{
+    width: 10vw;
+}
+
+.f2{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+
+.section2btn2data{
+    /* btn 22222222222 */
+    transition: all 2s;
+    width: 75vw;
+    height: 5vw;
+    /* border: 3px solid green; */
+    display: flex;
+    gap: 1vw;
+
+    display: none;
+}
+
+
+.section2btn3data{
+    /* btn 333333333 */
+
+    width: 75vw;
+    height: 11vw;
+    /* border: 3px solid green; */
+    display: flex;
+    gap: 1vw;
+    display: none;
+
+
+    /* display: none; */
+}
+
+.section2btn1dataimg2{
+    width: 22vw;
+    height: 5vw;
+    border: 2px solid black;
+    display: flex;
+    cursor: pointer;
+    border-radius: 2vw;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+
+    
+}
+
+
+.section2btn1dataimg2w{
+    width: 5vw;
+}
+
+
+.section3{
+    width: 100%;
+    height: 50vw;
+    /* border: 5px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
 
 
@@ -237,6 +539,222 @@ nav{
 
 
 
+.bottum{
+    width: 100%;
+    height: 40vw;
+    
+    background: linear-gradient(to bottom, white, lightblue);
+    /* border: 4px solid red; */
+}
+
+.disf2{
+    display: flex;
+    width: 94%;
+    height: 4vw;
+    align-items: center;
+    gap: 3vw;
+    justify-content: start;
+    padding-left: 6vw;
+    /* border: 3px solid green; */
+}
+
+.b1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.disflex11{
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* border: 3px solid orange; */
+}
+
+.disf3{
+    display: flex;
+    width: 20vw;
+    height: 30vw;
+    align-items: center;
+    gap: 0vw;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+    /* border: 3px solid green; */
+}
+#disf3{
+    display: flex;
+    width: 20vw;
+    height: 27.7vw;
+    align-items: center;
+    gap: 0vw;
+    gap: 2vw;
+    padding-top: 2.3vw;
+    flex-direction: column;
+    
+    /* border: 3px solid green; */
+}
+
+#gray{
+    color: grey;
+    cursor: pointer;
+    text-align: center;
+    width: 20vw;
+}
+
+.links{
+    width: 3vw;
+    cursor: pointer;
+}
+
+.flexlinks{
+    width: 20vw;
+    height: 5vw;
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.copy{
+    width: 100%;
+    height: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* border: 5px solid red; */
+}
+
+#logoimg{
+    width: 6vw;
+    cursor: pointer;
+    /* border: 2px solid black; */
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:400px) {
+    body{
+        font-size: 0.3rem;
+    }
+    .f1 , .f{
+        font-size: 0.21rem;
+
+    }
+    .t1{
+        font-size: 1rem;
+    }
+    .section2btn1,.section2btn2,.section2btn3,.b1 {
+        font-size: 0.55rem;
+    }
+    .f2 {
+        font-size: 0.4rem;
+    }
+}
+@media screen and (min-width:400px) and (max-width:500px) {
+    body{
+        font-size: 0.32rem;
+    }
+    .f1 , .f{
+        font-size: 0.25rem;
+
+    }
+    .t1{
+        font-size: 1.2rem;
+    }
+    .section2btn1,.section2btn2,.section2btn3,.b1 {
+        font-size: 0.55rem;
+    }
+    .f2 {
+        font-size: 0.4rem;
+    }
+}
+@media screen and (min-width:700px) and (max-width:860px) {
+    body{
+        font-size: 0.6rem;
+    }
+    .f1 , .f{
+        font-size: 0.4rem;
+
+    }
+    .t1{
+        font-size: 2rem;
+    }
+    .section2btn1,.section2btn2,.section2btn3,.b1 {
+        font-size: 0.9rem;
+    }
+    .f2 {
+        font-size: 0.9rem;
+    }
+}
+@media screen and (min-width:1000px) and (max-width:1025px) {
+    body{
+        font-size: 0.8rem;
+    }
+    .f1 , .f{
+        font-size: 0.55rem;
+
+    }
+    .t1{
+        font-size: 2.5rem;
+    }
+    .section2btn1,.section2btn2,.section2btn3,.b1 {
+        font-size: 1.5rem;
+    }
+    .f2 {
+        font-size: 1.2rem;
+    }
+}
+@media screen and (min-width:900px) and (max-width:920px) {
+    body{
+        font-size: 0.7rem;
+    }
+    .f1 , .f{
+        font-size: 0.5rem;
+
+    }
+    .t1{
+        font-size: 2.5rem;
+    }
+    .section2btn1,.section2btn2,.section2btn3,.b1 {
+        font-size: 1.2rem;
+    }
+    .f2 {
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width:500px) and (max-width:550px) {
+    body{
+        font-size: 0.4rem;
+    }
+    .f1 , .f{
+        font-size: 0.25rem;
+
+    }
+    .t1{
+        font-size: 1.5rem;
+    }
+    .section2btn1,.section2btn2,.section2btn3,.b1 {
+        font-size: 0.8rem;
+    }
+    .f2 {
+        font-size: 0.6rem;
+    }
+}
 
 
 
