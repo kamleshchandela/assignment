@@ -547,7 +547,7 @@ a{
 }
 .page2all{
     width: 100%;
-    height: 370vw;
+    height: 450vw;
     /* background-color: black; */
     /* border: 4px solid red; */
     background-image: url(https://cdn.tajhotels.com/images/ocl5w36p/prod5/634ad71cc4605f80960754cfcf9060810e987d31-1920x930.jpg?w=1920&auto=format);
@@ -668,6 +668,26 @@ a{
     /* background-color: black; */
     /* margin-top: 5vw; */
     background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1761062162/fe6799b89df9ca58ec7319b1d15063dff466576c-1892x860_q5z7li.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    background-position: bottom;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    gap: 10vw;
+    align-items: start;
+    flex-direction: column;
+    padding-top: 5vw;
+
+
+}
+.blackimgscrolpage1 {
+    width: 100%;
+    height: 70vw;
+    /* background-color: black; */
+    /* margin-top: 5vw; */
+    background-image: url(https://cdn.tajhotels.com/images/ocl5w36p/prod5/2d7e2f3170c75934ccf887f8d2309836a844cc63-1440x974.jpg?w=768);
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: 100% 80%;
