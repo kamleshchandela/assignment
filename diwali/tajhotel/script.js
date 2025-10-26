@@ -274,8 +274,3 @@ document.querySelector("#arrowt").addEventListener("click", function() {
 
 
 
-
-
-
-
-
