@@ -58,18 +58,7 @@ nav {
     align-items: center;
     /* background: #45443F; */
 }
-#nav {
-    width: 100%;
-    height: 6vw;
-    /* border: 5px solid red; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    position: fixed;
-    z-index: 1;
-    top: 0vw;
-    background: #45443F;
-}
+
 
 .logo {
     width: 10vw;
@@ -549,7 +538,7 @@ a{
 .page1all{
     width: 100%;
     height: 370vw;
-    margin-top: 6vw;
+    /* margin-top: 8vw; */
     /* background-color: black; */
     /* border: 4px solid red; */
     background-image: url(https://cdn.tajhotels.com/images/ocl5w36p/prod5/d0804c623c7fa3863fb7c330e484bc533a8363d6-3840x1320.jpg?w=1920&auto=format);
@@ -562,7 +551,7 @@ a{
 .page2all{
     width: 100%;
     height: 450vw;
-    margin-top: 6vw;
+    /* margin-top: 8vw; */
     /* background-color: black; */
     /* border: 4px solid red; */
     background-image: url(https://cdn.tajhotels.com/images/ocl5w36p/prod5/634ad71cc4605f80960754cfcf9060810e987d31-1920x930.jpg?w=1920&auto=format);
@@ -1218,7 +1207,7 @@ a{
 
 .bottum{
     width: 100%;
-    height: 40vw;
+    height: 50vw;
     
     background: linear-gradient(to bottom, white, #ddbd74);
     /* border: 4px solid red; */
@@ -1247,6 +1236,7 @@ a{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-top: 5vw;
     /* border: 3px solid orange; */
 }
 
@@ -1374,7 +1364,20 @@ a{
 
 
 
-
+@media screen and (max-width : 900px) {
+    #nav {
+    width: 100%;
+    height: 8vw;
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0vw;
+    background: #45443F;
+}
+}
 
 
 
