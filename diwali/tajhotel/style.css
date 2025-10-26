@@ -310,6 +310,48 @@ nav {
     padding-top: 2.3vw;
 }
 
+#page1login{
+    margin-left: 50vw;
+}
+
+
+#page1case2{
+    width: 65%;
+    margin-left: 15vw;
+    margin-top: 4vw;
+}
+
+.page1display{
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 4px solid red; */
+    /* margin-top: 5vw; */
+}
+.page2display{
+    width: 100%;
+    height: 55vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 4px solid red; */
+    /* margin-top: 5vw; */
+}
+
+#page1margin{
+    margin-top: 5vw;
+}
+
+
+
+
+
+
+
 
 .font1 {
     margin: 0;
@@ -358,6 +400,7 @@ nav {
     height: 200vw;
     /* background-color: #45443F; */
     overflow: hidden;
+    padding-top: 5vw;
 }
 
 .case1{
@@ -381,12 +424,17 @@ nav {
     color: #ebc367;
 }
 
+a{
+    text-decoration: none;
+}
+
 .gap{
     width: 100%;
     margin-top: 3vw;
     height: 180vw;
     display: flex;
     flex-direction: column;
+    
     /* gap: 1vw; */
 
     /* border: 4px solid green; */
@@ -468,6 +516,107 @@ nav {
     width: 30vw;
     cursor: pointer;
     /* object-fit: cover; */
+}
+
+#page1case1{
+    margin-top: 30vw;
+    margin-left: 33vw;
+}
+#page2case1{
+    margin-top: 45vw;
+    margin-left: 22vw;
+}
+
+
+#page1buttom{
+    margin-top: 10vw;
+}
+
+
+.page1all{
+    width: 100%;
+    height: 370vw;
+    /* background-color: black; */
+    /* border: 4px solid red; */
+    background-image: url(https://cdn.tajhotels.com/images/ocl5w36p/prod5/d0804c623c7fa3863fb7c330e484bc533a8363d6-3840x1320.jpg?w=1920&auto=format);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.page2all{
+    width: 100%;
+    height: 370vw;
+    /* background-color: black; */
+    /* border: 4px solid red; */
+    background-image: url(https://cdn.tajhotels.com/images/ocl5w36p/prod5/634ad71cc4605f80960754cfcf9060810e987d31-1920x930.jpg?w=1920&auto=format);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#page2center{
+    text-align: center;
+}
+
+
+.page2innert {
+    width: 29vw;
+    height: 15vw;
+    box-shadow: 2px 5px 10px #45443F;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    justify-content: center;
+    /* position: relative; */
+    /* margin-left: 10vw; */
+    /* margin-top: -3vw; */
+    background-color: white;
+    padding-right: 1vw;
+    cursor: pointer;
 }
 
 
@@ -596,7 +745,7 @@ nav {
     text-align: center;
     width: 100%;
     color: gray;
-    padding: 1vw;
+    padding-left: 0.5vw;
 
 
 }
