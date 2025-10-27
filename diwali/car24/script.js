@@ -101,6 +101,62 @@ sec2btn3.addEventListener("click",()=>{
 
 
 
+ document.addEventListener("DOMContentLoaded", function() {
+  var ok = document.querySelector(".citydata");
+  var chan = document.querySelector(".state");
+
+  ok.addEventListener("click", () => {
+    chan.textContent = 'Namaste!';
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
