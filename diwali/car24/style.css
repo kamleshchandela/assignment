@@ -84,12 +84,12 @@ nav{
     font-weight: bold;
 
 }
-/* .state1:hover{
-    font-size: 1.05rem;
-    font-weight: bold;
+.state1:hover{
+    /* font-size: 1.05rem; */
+    /* font-weight: bold; */
     border: 2px solid black;
 
-} */
+}
 
 .state3{
     width: 8vw;
