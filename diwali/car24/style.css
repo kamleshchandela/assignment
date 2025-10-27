@@ -65,10 +65,10 @@ nav{
     font-weight: bold;
 
 }
-.state:hover{
+/* .state:hover{
     font-size: 1.05rem;
     
-}
+} */
 
 .state1{
     width: 10vw;
@@ -84,12 +84,12 @@ nav{
     font-weight: bold;
 
 }
-.state1:hover{
+/* .state1:hover{
     font-size: 1.05rem;
     font-weight: bold;
     border: 2px solid black;
 
-}
+} */
 
 .state3{
     width: 8vw;
@@ -107,11 +107,11 @@ nav{
     font-weight: bold;
 
 }
-.state3:hover{
+/* .state3:hover{
     font-size: 1.05rem;
     font-weight: bold;
 
-}
+} */
 
 .state4{
     width: 10vw;
@@ -129,11 +129,11 @@ nav{
     font-weight: bold;
 
 }
-.state4:hover{
+/* .state4:hover{
     font-size: 1.05rem;
     font-weight: bold;
 
-}
+} */
 
 .f{
     color: black;
@@ -396,7 +396,7 @@ nav{
 }
 
 .section2btn1{
-    width: 24vw;
+    width: 20vw;
     height: 3vw;
     display: flex;
     justify-content: center;
@@ -410,7 +410,7 @@ nav{
     
 }
 .section2btn2{
-    width: 24vw;
+    width: 20vw;
     height: 3vw;
     display: flex;
     justify-content: center;
@@ -422,7 +422,7 @@ nav{
     cursor: pointer;
 }
 .section2btn3{
-    width: 24vw;
+    width: 20vw;
     height: 3vw;
     display: flex;
     justify-content: center;
