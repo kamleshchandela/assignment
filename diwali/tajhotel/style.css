@@ -116,6 +116,29 @@ nav {
     cursor: pointer;
 }
 
+.hotel1book{
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.hotel1btn1 {
+    width: 15vw;
+    height: 3vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ad8b3a;
+    cursor: pointer;
+    font-size: 1.5vw;
+    border-radius: 1vw;
+}
+
 .btn1:hover {
     width: 15vw;
     height: 3vw;
@@ -126,6 +149,18 @@ nav {
     background-color: #ebc367;
     transition: all 0.7s ease-in-out;
     font-weight: bold;
+}
+.hotel1btn1:hover {
+    width: 15vw;
+    height: 3vw;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebc367;
+    transition: all 0.7s ease-in-out;
+    font-weight: bold;
+    font-size: 1.5vw;
 }
 
 .logind {
@@ -333,6 +368,67 @@ nav {
     /* border: 4px solid red; */
     /* margin-top: 5vw; */
 }
+.page1displayhotel1{
+    width: 100%;
+    height: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 4px solid red;
+    /* margin-top: 5vw; */
+}
+
+
+
+
+.hotel1display{
+    width: 100%;
+    height: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* border: 4px solid red; */
+    /* margin-top: 5vw; */
+}
+.hotel1img1 {
+    width: 45vw;
+    cursor: pointer;
+    /* object-fit: cover; */
+}
+.hotel1innert {
+    width: 39vw;
+    height: 25vw;
+    box-shadow: 2px 5px 10px #45443F;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    background-color: white;
+    padding-right: 1vw;
+    cursor: pointer;
+}
+.hotel1infoinnert {
+    width: 90%;
+    height: 30vw;
+    box-shadow: 2px 5px 10px #45443F;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 5vw;
+    background-color: white;
+    padding-right: 1vw;
+    cursor: pointer;
+    margin-top: 10vw;
+    margin-left: 10vw;
+}
+
+
+
+
 .page2display{
     width: 100%;
     height: 55vw;
@@ -524,6 +620,15 @@ a{
     margin-top: 30vw;
     margin-left: 33vw;
 }
+#hotel1case1{
+    margin-top: 45vw;
+    margin-left: 15vw;
+}
+#hotel1infocase1{
+    margin-top: 0vw;
+    margin-bottom: 5vw;
+    margin-left: 35vw;
+}
 #page2case1{
     margin-top: 55vw;
     margin-left: 22vw;
@@ -562,6 +667,21 @@ a{
     gap: 2vw;
 }
 
+
+
+.hotel1all{
+    width: 100%;
+    height: 500vw;
+    /* margin-top: 8vw; */
+    /* background-color: black; */
+    /* border: 4px solid red; */
+    background-image: url(https://cdn.tajhotels.com/images/ocl5w36p/prod5/ec507d185b6b92e3dcbf440eefdbb751cc380919-3841x1860.jpg?w=1600);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
 
 
 
@@ -770,6 +890,34 @@ a{
     width: 100%;
     color: gray;
     padding-left: 0.5vw;
+
+
+}
+.hotel1font23 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.2vw;
+    color: #45443F;
+    text-align: left;
+    width: 100%;
+    color: gray;
+    padding-left: 0.5vw;
+    width: 30vw;
+    padding-left: 5vw;
+
+
+}
+.hotel1infofont23 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.2vw;
+    color: #45443F;
+    text-align: left;
+    width: 100%;
+    color: gray;
+    padding-left: 0.5vw;
+    width: 60vw;
+    padding-left: 5vw;
 
 
 }
