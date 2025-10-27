@@ -82,6 +82,7 @@ nav{
     align-items: center;
     gap: .5vw;
     font-weight: bold;
+    cursor: pointer;
 
 }
 .state1:hover{
@@ -105,6 +106,7 @@ nav{
     gap: .5vw;
     transition: all 1s;
     font-weight: bold;
+    cursor: pointer;
 
 }
 /* .state3:hover{
@@ -127,6 +129,7 @@ nav{
     gap: .5vw;
     transition: all 1s;
     font-weight: bold;
+    cursor: pointer;
 
 }
 /* .state4:hover{
