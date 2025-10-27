@@ -661,19 +661,27 @@ a{
 }
 #hotel1case1{
     margin-top: 45vw;
-    margin-left: 15vw;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    background-color: white;
 }
 #hotel2case1{
     margin-top: 45vw;
-    margin-left: 12vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: white;
 }
 #hotel3case1{
     margin-top: 45vw;
     margin-left: 28vw;
+    margin-right: 25vw;
+    background-color: white;
 }
 #hotel4case1{
     margin-top: 45vw;
     margin-left:4vw;
+    margin-right:4vw;
+    background-color: white;
 }
 #hotel1infocase1{
     margin-top: 0vw;
@@ -1659,6 +1667,9 @@ a{
     top: 0vw;
     background: #45443F;
 }
+    .page2all, .hotel1all,.hotel2all,.hotel3all,.hotel4all,.page1all,.page2all,.page3all,.mainpage4,.page5all {
+        margin-top: 8vw;
+    }
 }
 
 
