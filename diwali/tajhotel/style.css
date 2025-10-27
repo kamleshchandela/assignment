@@ -658,6 +658,8 @@ a{
 #page1case1{
     margin-top: 30vw;
     margin-left: 33vw;
+    margin-right: 33vw;
+    background-color: white;
 }
 #hotel1case1{
     margin-top: 45vw;
@@ -695,6 +697,8 @@ a{
 #page3case1{
     margin-top: 50vw;
     margin-left: 30vw;
+    margin-right: 28vw;
+    background-color: white;
 }
 
 
