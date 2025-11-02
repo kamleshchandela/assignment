@@ -27,14 +27,14 @@ body{
     width: 100%;
     height: auto;
     background-color: black;
-    border: 3px solid green;
+    /* border: 3px solid green; */
 }
 
 .nav{
     width: 100%;
     height: 10vw;
     background-color: rgb(35, 29, 29);
-    border: 3px solid green;
+    /* border: 3px solid green; */
     color: aquamarine;
     font-weight: 900;
     font-size: 3vw;
@@ -47,7 +47,7 @@ body{
 .data{
     width: 100%;
     height: auto;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
