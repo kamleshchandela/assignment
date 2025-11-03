@@ -134,9 +134,7 @@ l5.addEventListener("click",()=>{
 
     leng.style.display = "none";
 
-})
-
-
+});
 
 
 

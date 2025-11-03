@@ -102,6 +102,7 @@ body::selection{
     display: flex;
     justify-content: start;
     font-weight: 800;
+    font-size: 1.4vw;
     align-items: center;
 }
 .hover12{
@@ -111,6 +112,7 @@ body::selection{
     border-radius: 2vw;
     color: rgb(112, 138, 144);
     display: flex;
+    font-size: 1.2vw;
     font-weight: 500;
     justify-content: start;
     align-items: start;
@@ -181,7 +183,7 @@ body::selection{
 .navdata1{
     width: 6vw;
     height: 3vw;
-    border: 3px solid black;
+    border: 0.2vw solid black;
     /* border: 3px solid red; */
     display: flex;
     justify-content: center;
@@ -194,7 +196,7 @@ body::selection{
 .navdata1:hover{
     width: 6vw;
     height: 3vw;
-    border: 2px solid aquamarine;
+    border: 0.2vw solid aquamarine;
     display: flex;
     justify-content: center;
     align-items: center;
