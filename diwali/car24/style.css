@@ -1,6 +1,7 @@
 *{
     margin: opx;
     padding: 0px;
+    scrollbar-width: none;
 }
 
 body{
@@ -687,7 +688,7 @@ label{
 
 .citybox{
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     /* border: 4px solid green; */
     transition: all 2s;
     display: flex;
@@ -696,6 +697,7 @@ label{
     align-items: center;
     gap: 3vw;
     overflow-y: scroll;
+    
 }
 
 .cityf{
@@ -732,6 +734,25 @@ label{
 
 a{
     text-decoration: none;
+}
+
+.maindata a{
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+
+
+
+     width: 6vw;
+    height: 8.5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1vw;
+    cursor: pointer;
+    transition: all 0.5s;
+    /* border: 2px solid black; */
+
+    
 }
 
 
