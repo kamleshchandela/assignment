@@ -242,7 +242,6 @@ a{
     transition: all 0.2s ease-in-out;
 }
 .btn1:hover{
-    width: 15vw;
     height: 4vw;
     background-color: #7919ff;
     display: flex;
@@ -277,7 +276,6 @@ a{
     color: rgb(115, 234, 169);
     justify-content: center;
     align-items: center;
-    font-size: 1.2vw;
     font-weight: var(--mainfont1weight);
     transform: scale(1.05);
     /* margin-bottom: 0.5vw; */
@@ -481,6 +479,7 @@ a{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background: linear-gradient(to bottom, white,rgb(183, 96, 183));
     /* border: 3px solid green; */
 }
 .bottum1{
@@ -660,11 +659,15 @@ a{
 }
 
 .btns{
+    margin: 5vw;
     width: 100%;
-    height: 5vw;
+    height: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+    margin-left: -0.5vw;
 }
 
 .longdata{
@@ -803,6 +806,13 @@ a{
     margin-top: 0vw;
     z-index: -1;
 }
+.img7{
+    position: absolute;
+    margin-left: -80vw;
+    margin-top: 110vw;
+    z-index: -1;
+    transform: rotate(180deg);
+}
 
 .page2all{
     width: 100%;
@@ -882,16 +892,29 @@ input{
 
    }
 }
-@media screen and (max-width:1000px) {
+@media screen and (max-width:900px) {
    :root{
     --navdata : 0.6rem;
     --mainfont1 : 0.9rem;
     --mainfont2 : 1.7rem;
     --mainfont3 : 1rem;
-    --mainfont4 : 1rem;
+    --mainfont4 : 0.8rem;
     --mainfont5 : 0.7rem;
 
 
+   }
+
+   .part1text1,.part1text2{
+    display: flex;
+    justify-content: center;
+   }
+
+
+   .copy{
+    font-size: 2vw;
+   }
+   .page1all{
+    height: 780vw;
    }
    .div2part1data1{
     height: auto;
@@ -900,6 +923,11 @@ input{
    .div2part1data1:hover{
     height: auto;
     width: 75%;
+   }
+
+   .btn1{
+    width: 20vw;
+    height: 7vw;
    }
 
    .div2part1{
@@ -922,6 +950,162 @@ input{
 
    .longdata1{
     width: 40%;
+   }
+
+   .div2part1data1data2{
+    line-height: 4vw;
+   }
+   .div2part1data1data1{
+    font-size: 3vw;
+   }
+   .btn2{
+    font-size: 2.5vw;
+    width: 25vw;
+    height: 5vw;
+   }
+
+   .lernbox{
+    height: 60vw;
+    
+   }
+
+   .div2part1{
+    margin-bottom: 8vw;
+   }
+
+   .bottum{
+    margin-top: 5vw;
+   }
+
+   .icone,.icone2{
+    width: 5vw;
+    height: 5vw;
+   }
+
+   .logo{
+    width: 26vw;
+   }
+
+   .mainfont5,.mainfont4{
+    line-height: 4vw;
+   }
+   .main{
+    height: 1500vw;
+    margin-top: 10vw;
+   }
+   
+   #tfw{
+    font-size: 1.7vw;
+    line-height: 2.5vw;
+   }
+   .part1text2{
+    margin-left: 15vw;
+   }
+   .img6{
+    width: 30vw;
+    margin-top: 80vw;
+   }
+   
+}
+@media screen and (max-width:1000px) and (min-width:900px) {
+   :root{
+    --navdata : 0.8rem;
+    --mainfont1 : 1.5rem;
+    --mainfont2 : 1.7rem;
+    --mainfont3 : 2rem;
+    --mainfont4 : 1.3rem;
+    --mainfont5 : 1.35rem;
+
+
+   }
+
+   .copy{
+    font-size: 2vw;
+   }
+   .page1all{
+    height: 780vw;
+   }
+   .div2part1data1{
+    height: auto;
+    width: 75%;
+   }
+   .div2part1data1:hover{
+    height: auto;
+    width: 75%;
+   }
+
+   .btn1{
+    width: 20vw;
+    height: 7vw;
+   }
+
+   .div2part1{
+    
+    flex-wrap: wrap;
+    height: auto;
+   }
+
+   .part1{
+    height: auto;
+   }
+
+   .bottum1{
+    width: 40%;
+   }
+
+   .bottum{
+    gap: 3vw;
+   }
+
+   .longdata1{
+    width: 40%;
+   }
+
+   .div2part1data1data2{
+    line-height: 4vw;
+   }
+   .div2part1data1data1{
+    font-size: 3vw;
+   }
+   .btn2{
+    font-size: 2.5vw;
+    width: 25vw;
+    height: 5vw;
+   }
+
+   .lernbox{
+    height: 60vw;
+    
+   }
+
+   .div2part1{
+    margin-bottom: 8vw;
+   }
+
+   .bottum{
+    margin-top: 5vw;
+   }
+
+   .icone,.icone2{
+    width: 5vw;
+    height: 5vw;
+   }
+
+   .logo{
+    width: 26vw;
+   }
+
+   .mainfont5,.mainfont4{
+    line-height: 4vw;
+   }
+   .main{
+    height: 1200vw;
+    margin-top: 10vw;
+   }
+   
+   #tfw{
+    font-size: 1.7vw;
+    line-height: 2.5vw;
    }
    
 }
@@ -947,17 +1131,75 @@ input{
     --mainfont1 : 0.5rem;
     --mainfont2 : 1.2rem;
     --mainfont3 : 0.7rem;
-    --mainfont4 : 0.7rem;
-    --mainfont5 : 0.5rem;
+    --mainfont4 : 0.65rem;
+    --mainfont5 : 0.65rem;
 
    }
+   
    .bottum1{
-    width: 70%;
+    width: 40%;
    }
 
    .bottum{
     gap: 3vw;
+    
    }
+
+   .bottumt2{
+    font-size: 0.5rem;
+   }
+   .bottumt2:hover{
+    font-size: 0.5rem;
+   }
+
+   .main{
+    height: 1350vw;
+   }
+
+   .img1{
+    width: 35vw;
+    margin-top: 70vw;
+   }
+   .img2{
+    width: 35vw;
+    margin-top: 130vw;
+   }
+
+   .lernbox{
+    height: 60vw;
+    
+   }
+
+   .div2part1{
+    margin-bottom: 8vw;
+   }
+
+   .bottum{
+    margin-top: 5vw;
+   }
+
+   .icone,.icone2{
+    width: 5vw;
+    height: 5vw;
+   }
+
+   .logo{
+    width: 26vw;
+   }
+
+   .mainfont5,.mainfont4{
+    line-height: 4vw;
+   }
+
+}
+
+
+
+@media screen and (min-width:300px) and (max-width:400px) {
+    .main{
+        height: 1250vw;
+        margin-top: 15vw;
+    }
 }
 
 
