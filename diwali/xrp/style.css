@@ -368,6 +368,7 @@ a{
 .div2part1data1{
     width: 30%;
     height: 25vw;
+    min-height: 29vw;
     /* padding: 2vw; */
     display: flex;
     flex-direction: column;
@@ -1153,7 +1154,7 @@ input{
    }
 
    .main{
-    height: 1350vw;
+    height: 1500vw;
    }
 
    .img1{
@@ -1195,11 +1196,111 @@ input{
 
 
 
-@media screen and (min-width:300px) and (max-width:400px) {
+@media screen and (min-width:300px) and (max-width:380px) {
+    .main{
+        height: 1220vw;
+    }
+    .page1all{
+        height: 850vw;
+    }
+}
+@media screen and (min-width:380px) and (max-width:400px) {
     .main{
         height: 1250vw;
-        margin-top: 15vw;
     }
+    .page1all{
+        height: 900vw;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:430px) {
+    .main{
+        height: 1250vw;
+    }
+    .page1all{
+        height: 900vw;
+    }
+}
+@media screen and (min-width:430px) and (max-width:450px) {
+    .main{
+        height: 1240vw;
+    }
+}
+@media screen and (min-width:350px) and (max-width:370px) {
+    .main{
+        height: 1230vw;
+    }
+}
+@media screen and (min-width:760px) and (max-width:770px) {
+    .main{
+        height: 1150vw;
+    }
+    .page1all{
+        height: 870vw;
+    }
+}
+@media screen and (min-width:800px) and (max-width:825px) {
+    .main{
+        height: 1160vw;
+    }
+    .page1all{
+        height: 890vw;
+    }
+}
+@media screen and (min-width:1000px) and (max-width:1025px) and (max-height:1400px) {
+    .main{
+        height: 640vw;
+    }
+    .page1all{
+        height: 570vw;
+    }
+}
+@media screen and (min-width:900px) and (max-width:925px) {
+    .main{
+        height: 1250vw;
+    }
+    .page1all{
+        height: 900vw;
+    }
+}
+@media screen and (min-width:500px) and (max-width:550px) {
+    .main{
+        height: 1140vw;
+    }
+    .page1all{
+        height: 830vw;
+    }
+}
+@media screen and (min-width:340px) and (max-width:350px) {
+    .main{
+        height: 1310vw;
+    }
+    .page1all{
+        height: 920vw;
+    }
+}
+@media screen and (min-width:840px) and (max-width:860px) {
+    .main{
+        height: 1170vw;
+    }
+    .page1all{
+        height: 900vw;
+    }
+}
+@media screen and (min-width:1020px) and (max-width:1025px) and (max-height:610px) {
+    .main{
+        height: 570vw;
+    }
+    .page1all{
+        height: 500vw;
+    }
+    
+}
+@media screen and (min-width:1280px) and (max-width:1290px) and (max-height:810px) {
+    .page1all{
+        height: 520vw;
+    }
+    
 }
 
 
