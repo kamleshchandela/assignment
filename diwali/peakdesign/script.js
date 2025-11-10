@@ -292,13 +292,32 @@ js6.addEventListener("click",()=>{
 
 
 
+var ham = document.querySelector("#hamnav");
+var hambox = document.querySelector(".ham");
+var num =1;
+
+ham.addEventListener("click",()=>{
+    if(num == 1){
+        hambox.style.transform = "translateX(0vw)";
+        num = 2;
+    }
+    else{
+        hambox.style.transform = "translateX(-100vw)";
+        num = 1;
+    }
+    
+})
+
+var main = document.querySelector(".main")
 
 
-
-
-
-
-
+main.addEventListener("click",()=>{
+    if(num = 2){
+        hambox.style.transform = "translateX(-100vw)";
+        num = 1;
+    }
+    
+})
 
 
 
