@@ -140,7 +140,7 @@ body {
 
 #navdata7{
     width: 4vw;
-    margin-top: 1.8vw;
+    margin-top: 1.5vw;
     padding-top: 0.4vw;
 }
 #navdata7:hover{
@@ -382,8 +382,8 @@ body {
 
 
 #cart{
-    width: 4vw;
-    margin-top: -0.5vw;
+    width: 3vw;
+    margin-top: -0.4vw;
 }
 
 
@@ -1612,9 +1612,7 @@ body {
     #navdata8{
         margin-bottom: -5vw;
     }
-    .logo{
-        width: 30vw;
-    }
+    
     .input{
         display: none;
     }
@@ -1624,18 +1622,30 @@ body {
     .searchlogo{
         display: flex;
         
+        
     }
 
     
 #cart{
-    width: 10vw;
-    margin-top: -5vw;
+    width: 12vw;
+    margin-top: -6vw;
+    
 }
 
+.logo{
+        width: 30vw;
+    }
 
 
+    .part1imgs11text1{
+        font-size: 3vw;
+        height: 4vw;
+    }
 
-
+    .part1imgs11text2{
+        font-size: 2.5vw;
+        height: 4vw;
+    }
 
 
     
