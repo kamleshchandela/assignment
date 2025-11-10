@@ -310,7 +310,7 @@ body {
 
 .part1text1{
     width: 100%;
-    height: 6vw;
+    height: auto;
     font-size: 3vw;
     font-weight: 400;
     /* border: 3px solid green; */
@@ -318,8 +318,10 @@ body {
     display: flex;
     justify-content: start;
     align-items: center;
-    gap: 1vw;
+    gap: 2vw;
+    flex-wrap: wrap;
     font-family: "Roboto Slab", serif;
+    margin: 3vw;
 
 }
 .part1btn{
@@ -376,7 +378,16 @@ body {
     
 
 }
-.part1imgs11{
+
+
+
+
+
+
+
+
+
+.part1imgs111{
     width: 100%;
     height: 35vw;
     font-size: 3vw;
@@ -391,7 +402,7 @@ body {
     transition: all 0.5s ease-in-out;
     border-radius: 1vw;
 }
-.part1imgs11:hover{
+.part1imgs111:hover{
     width: 100%;
     height: 35vw;
     font-size: 3vw;
@@ -404,6 +415,199 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
+.part1imgs112{
+    width: 100%;
+    height: 35vw;
+    font-size: 3vw;
+    font-weight: 400;
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url('https://res.cloudinary.com/dsuhb6swy/image/upload/v1762780695/Tech-Pouch-Parent-Primary_dwm74b.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: all 0.5s ease-in-out;
+    border-radius: 1vw;
+}
+.part1imgs112:hover{
+    width: 100%;
+    height: 35vw;
+    font-size: 3vw;
+    font-weight: 400;
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url('https://res.cloudinary.com/dsuhb6swy/image/upload/v1762780720/Tech-Pouch-Parent-Secondary_dpxyej.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.part1imgs113{
+    width: 100%;
+    height: 35vw;
+    font-size: 3vw;
+    font-weight: 400;
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url('https://res.cloudinary.com/dsuhb6swy/image/upload/v1762780822/Packing-Cube-Parent-Primary_lbgah3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: all 0.5s ease-in-out;
+    border-radius: 1vw;
+}
+.part1imgs113:hover{
+    width: 100%;
+    height: 35vw;
+    font-size: 3vw;
+    font-weight: 400;
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url('https://res.cloudinary.com/dsuhb6swy/image/upload/v1762780848/Packing-Cube-Parent-Secondary_ahtybv.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.part1imgs114{
+    width: 100%;
+    height: 35vw;
+    font-size: 3vw;
+    font-weight: 400;
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url('https://res.cloudinary.com/dsuhb6swy/image/upload/v1762780895/Wash-Pouch-Parent-Primary_tercb9.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: all 0.5s ease-in-out;
+    border-radius: 1vw;
+}
+.part1imgs114:hover{
+    width: 100%;
+    height: 35vw;
+    font-size: 3vw;
+    font-weight: 400;
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url('https://res.cloudinary.com/dsuhb6swy/image/upload/v1762780900/Wash-Pouch-Parent-Secondary_fsnsxb.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.part1imgs115{
+    width: 100%;
+    height: 35vw;
+    font-size: 3vw;
+    font-weight: 400;
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url('https://res.cloudinary.com/dsuhb6swy/image/upload/v1762780941/ULPC-Parent-Primary_xixbgu.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: all 0.5s ease-in-out;
+    border-radius: 1vw;
+}
+.part1imgs115:hover{
+    width: 100%;
+    height: 35vw;
+    font-size: 3vw;
+    font-weight: 400;
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url('https://res.cloudinary.com/dsuhb6swy/image/upload/v1762780962/ULPC-Parent-Secondary_wqxtrp.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.part1imgs116{
+    width: 100%;
+    height: 35vw;
+    font-size: 3vw;
+    font-weight: 400;
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url('https://res.cloudinary.com/dsuhb6swy/image/upload/v1762781043/Packable-Tote-Parent-Primary_fdlvsc.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: all 0.5s ease-in-out;
+    border-radius: 1vw;
+}
+.part1imgs116:hover{
+    width: 100%;
+    height: 35vw;
+    font-size: 3vw;
+    font-weight: 400;
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url('https://cdn.shopify.com/s/files/1/2986/1172/files/Packable-Tote-Parent-Secondary.jpg?v=1755002337&width=500&height=625&crop=center');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.part1imgs117{
+    width: 100%;
+    height: 35vw;
+    font-size: 3vw;
+    font-weight: 400;
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url('https://res.cloudinary.com/dsuhb6swy/image/upload/v1762781091/rollerpro-group-159A0003_1_iqyxyk.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: all 0.5s ease-in-out;
+    border-radius: 1vw;
+}
+.part1imgs117:hover{
+    width: 100%;
+    height: 35vw;
+    font-size: 3vw;
+    font-weight: 400;
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url('https://res.cloudinary.com/dsuhb6swy/image/upload/v1762781096/rollerpro-group-159A0009_iezk0r.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .part1imgs11text1{
     width: 100%;
@@ -1258,8 +1462,13 @@ body {
         margin-top: 0.4vw;
     }
     .part1btn{
-        font-size: 1.5vw;
-        width: 12vw;
+        font-size: 2.5vw;
+        width: 25vw;
+        height: 6vw;
+    }
+    .part1text1{
+        padding: 2vw;
+        font-size: 4vw;
     }
     .part1imgs11text1{
         font-size: 2.5vw;
@@ -1376,32 +1585,28 @@ body {
     .navdata{
         display: none;
     }
-    #navdata7{
-        margin-left: 25vw;
+    .icone{
+        width: 10vw;
+        margin-top: -3vw;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
+    .nav{
+        height: 16vw;
+    }
+    #navdata8{
+        margin-bottom: -5vw;
+    }
+    .logo{
+        width: 20vw;
+    }
+    .input{
+        height: 8vw;
+        width: 35vw;
+        border: 0.2vw solid;
+        font-size :3vw;
+    }
+    #navdata6{
+        display: none;
+    }
 
 
 
