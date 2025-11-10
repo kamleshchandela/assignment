@@ -1493,12 +1493,6 @@ body {
 
 
 
-@media screen and (max-width:1090px) and (min-width:1070px) and (max-height:2350px) and (min-height:2330px) {
-    .main{
-        height: 960vw;
-    }
-}
-
 
 
 
