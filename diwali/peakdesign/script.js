@@ -299,6 +299,7 @@ var num =1;
 ham.addEventListener("click",()=>{
     if(num == 1){
         hambox.style.transform = "translateX(0vw)";
+        hambox.style.transform = "translateY(8vw)";
         num = 2;
     }
     else{

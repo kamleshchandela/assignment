@@ -1708,6 +1708,29 @@ a{
 }
 
 
+.page2scrol1img1{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1762520746/Screenshot_2025-11-07_183421_nm2n7s.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.page2scrol1img2{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1762509207/Screenshot_2025-11-07_152309_bbbffu.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.page2scrol1img3{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1762511671/Screenshot_2025-11-07_160409_jdqzsa.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
 
 
