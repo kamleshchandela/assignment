@@ -1434,7 +1434,7 @@ body {
 .page1all{
     width: 100%;
     height: auto;
-    border: 3px solid green;
+    /* border: 3px solid green; */
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -1576,7 +1576,7 @@ body {
 .page1allimg{
     width: 100%;
     height: auto;
-    border: 3px solid green;
+    /* border: 3px solid green; */
     margin-top: 1vw;
     padding: 2.5vw;
     display: flex;
@@ -2056,6 +2056,10 @@ a{
         /* margin-right: 2vw; */
     }
     .box1{
+        width: 45vw;
+        height: 70vw;
+    }
+    .box1:hover{
         width: 45vw;
         height: 70vw;
     }
