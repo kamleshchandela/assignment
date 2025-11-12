@@ -1,0 +1,442 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: 0;
+    
+    
+}
+
+
+body {
+    /* font-family:  ScandiaWeb, -apple-system, BlinkMacSystemFont, "Segoe UI", Ubuntu, "Helvetica Neue", sans-serif; */
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+
+}
+
+
+.main{
+    width: 100%;
+    height: 700vw;
+    border: 3px solid red;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.nav{
+    width: 100%;
+    height: 7vw;
+    border: 3px solid green;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 5vw;
+    gap: 0.5vw;
+}
+
+.logo{
+    width: 10vw;
+    height: 6vw;
+    margin-right: 5vw;
+    border: 3px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+}
+
+.navdata{
+    color: white;
+    width: 7vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3vw;
+    border-radius: 1vw;
+    border: 0.2vw solid black;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+
+}
+.navdata:hover{
+    color: white;
+    width: 7vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3vw;
+    border-radius: 1vw;
+    border: 0.2vw solid rgb(169, 169, 169);
+
+}
+
+#login{
+    margin-left: 23vw;
+
+}
+
+.mainfont1{
+    font-size: 4.5vw;
+    width: 30vw;
+    text-align: center;
+    margin-top: 5vw;
+    /* border:2px solid white */
+}
+.mainfont2{
+    font-size: 1.5vw;
+    width: 35vw;
+    text-align: center;
+    margin-top: 3vw;
+    color: rgb(175, 175, 175);
+    /* border:2px solid white; */
+}
+
+.mainimg{
+    width: 100%;
+    height: 60vw;
+    margin-top: 5vw;
+    /* border: 2px solid white; */
+}
+
+.mainbtn{
+    width: 14vw;
+    height: 4vw;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    border-radius: 0.5vw;
+    font-weight: 700;
+    margin-top: 3vw;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.mainbtn:hover{
+    opacity: 0.8;
+}
+
+.mainfont3{
+    width: 25vw;
+    height: 4vw;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    /* border:2px solid white; */
+    margin-top: 5vw;
+
+    
+}
+
+.scrol{
+    width: 100%;
+    height: 10vw;
+    /* border:2px solid white; */
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    justify-content: start;
+    margin-top: 3vw;
+}
+
+.inimg{
+    width: 85vw;
+    height: 10vw;
+    /* border: 2px solid white; */
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+
+}
+
+.mainfont4{
+    /* border: 2px solid white; */
+    width: 20vw;
+    height: auto;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-top: 2vw;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.3s ease-in-out;
+
+}
+.mainfont4:hover{
+    opacity: 1;
+    filter: brightness(1);
+
+}
+
+.mainfont5{
+    width: 40vw;
+    height: auto;
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 10vw;
+    /* border: 2px solid white; */
+
+}
+
+.part1{
+    width: 100%;
+    height: auto;
+    margin-top: 10vw;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.part1img{
+    width: 40vw;
+    height: 40vw;
+    /* border: 2px solid white; */
+    display: block;
+}
+
+.part1data{
+    width: 40vw;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+    /* border: 2px solid white; */
+
+
+}
+
+.part1font1{
+    width: 100%;
+    /* border: 2px solid white; */
+    padding-left: 4vw;
+    font-size: 1.5vw;
+}
+
+.part1font2{
+    width: 100%;
+    /* border: 2px solid white; */
+    padding-left: 3vw;
+    padding-right: 3vw;
+
+    font-size: 3vw;
+}
+
+.part1font3{
+    width: 100%;
+    /* border: 2px solid white; */
+    padding-left: 3vw;
+    padding-right: 3vw;
+
+    font-size: 1.3vw;
+    margin-top: 1.5vw;
+}
+
+.part1font4{
+    width: 100%;
+    /* border: 2px solid white; */
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 1.3vw;
+    opacity: 0.7;
+    margin-top: 2vw;
+
+    cursor: pointer;
+}
+
+.part1font4:hover{
+    width: 100%;
+    /* border: 2px solid white; */
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 1.3vw;
+    opacity: 1;
+
+    cursor: pointer;
+}
+
+.ani1{
+    width: 130vw;
+    height: 17vw;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    padding-left: 1vw;
+    animation: ani1 30s infinite ease-in-out;    
+
+}
+
+.ani2{
+    width: 130vw;
+    height: 17vw;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    padding-left: 1vw;
+    animation: ani2 30s infinite ease-in-out;   
+
+
+}
+
+.aniimg{
+    width: 15vw;
+    border-radius: 1vw;
+    /* display: block; */
+}
+
+.part1img2{
+    width: 40vw;
+    height: 40vw;
+    /* border: 3px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #dbd9d1;
+    cursor: pointer;
+}
+
+
+@keyframes ani1 {
+    0%{
+        transform: translateX(0vw);
+    }
+    50%{
+        transform: translateX(-90vw);
+
+    }
+    100%{
+        transform: translateX(0vw);
+
+    }
+    
+}
+
+@keyframes ani2 {
+    0%{
+        transform: translateX(-90vw);
+    }
+    50%{
+        transform: translateX(0vw);
+
+    }
+    100%{
+        transform: translateX(-90vw);
+
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px) {
+    .part1img{
+        width: 80vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
