@@ -233,7 +233,7 @@ body {
 
 .part1font2{
     width: 100%;
-    /* border: 2px solid white; */
+    border: 2px solid white;
     padding-left: 3vw;
     padding-right: 3vw;
 
@@ -347,28 +347,129 @@ body {
     
 }
 
+.mainfont6{
+    width: 100%;
+    height: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-weight: 600;
+    margin-top: 10vw;
+    border: 3px solid red;
+}
 
+.column{
+    width: 100%;
+    height: 10vw;
+    border: 2px solid white;
+    column-count: 3;
+    margin-top: 2vw;
+}
 
+.columnfont1{
+    width: 100%;
+    height: 10vw;
+    /* border: 2px solid white; */
+    font-size: 4vw;
+    font-weight: 550;
 
+}
 
+.columnt1{
+    width: 100%;
+    height: 6vw;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 
+.columnt2{
+    font-size: 1vw;
+    width: 100%;
+    height: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    /* border: 2px solid white; */
 
+}
 
+.blackscrolbox{
+    width: 100%;
+    height: 80vw;
+    border: 2px solid red;
+    overflow: hidden;
 
+}
 
+.blacksection{
+    width: 150vw;
+    height: 80vw;
+    display: flex;
+    padding-left: 4vw;
+    border: 2px solid green;
 
+}
 
+.blackimg1{
+    width: 70vw;
+    height: 80vw;
+    border: 2px solid red;
 
+}
 
+.blackimage{
+    width: 100%;
+    
+}
 
+.blackimagetext{
+    width: 50vw;
+    height: auto;
+    font-size: 1.5vw;
+    border: 2px solid red;
 
+}
 
+.blackimgdata{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
 
+}
 
+.mainbtn1{
+    width: 14vw;
+    height: 4vw;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    border-radius: 0.5vw;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.mainbtn1:hover{
+    opacity: 0.8;
+}
 
+.grayfont{
+    width: 100%;
+    height: 3vw;
+    color: gray;
+    border: 2px solid red;
 
-
+}
 
 
 
@@ -457,6 +558,11 @@ body {
         width: 60vw;
     }
     .mainbtn{
+        width: 25vw;
+        height: 6vw;
+        font-size: 2.5vw;
+    }
+    .mainbtn1{
         width: 25vw;
         height: 6vw;
         font-size: 2.5vw;
