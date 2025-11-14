@@ -107,6 +107,20 @@ function endGame() {
 
 
 
+    // 5 band karva mate
+    for (let i = 0; i < 6; i++) {
+        holes[i].style.pointerEvents = "none"
+        moles[i].style.pointerEvents = "none"
+
+    }
+
+    
+
+
+
+
+
+
     // 7. "Last Game Score" Using sessionStorage
 
         sessionStorage.setItem("lastScore", `Last Score is : ${score}`);
@@ -118,6 +132,10 @@ function endGame() {
 
     displayContent();
 }
+
+
+
+
 
 function randomTime(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
@@ -197,10 +215,104 @@ function startGame() {
             endGame();
         }
     }, 1000);
+
+
+
+
+    // 5. Hit Counter (Separate from Score)
+
+    // Hit counter click chalu karva 
+    for (let i = 0; i < 6; i++) {
+        holes[i].style.pointerEvents = "auto"
+        moles[i].style.pointerEvents = "auto"
+
+    }
+
+
+    var hitCounterNum = 0;
+    for (let i = 0; i < 6; i++) {
+        holes[i].addEventListener("click", () => {
+            console.log("click");
+            hitCounterNum++;
+            console.log(hitCounterNum);
+
+
+            document.querySelector(".hitNum").textContent = `${hitCounterNum}`
+
+
+
+
+
+        })
+        moles[i].addEventListener("click", () => {
+            console.log("click1");
+            hitCounterNum++;
+            console.log(hitCounterNum);
+
+
+
+
+
+
+            document.querySelector(".hitNum").textContent = `${hitCounterNum}`
+
+
+
+
+
+        })
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     
 }
 
+
+
+var min;
+var timeArr = [];
 function bonk(event) {
     if (!event.isTrusted) return; // ignore fake clicks
 
@@ -210,21 +322,46 @@ function bonk(event) {
         score++;
         displayContent();
 
-        console.log(score);
+        // console.log(score);
 
-
-
-        time22 = Date.now();
-
-        document.querySelector(".timediff").textContent = `${(time22-time11)/1000}`
-
-
-
-
-
-       
 
         
+        time22 = Date.now();
+
+        var timedata = document.querySelector(".timediff").textContent = (time22-time11)/1000;
+
+        
+
+        
+
+        // 8. "Fastest Hit" Timer Using sessionStorage
+
+        timeArr.push(timedata);
+
+        console.log(timeArr);
+
+        min = timeArr[1];
+
+        for(let i = 0 ; i<timeArr.length;i++){
+            for(let j=i ; j<timeArr.length; j++){
+                if(min>timeArr[j]){
+                    min = timeArr[j];
+                }
+                
+                
+            }
+        }
+
+        console.log(min);
+
+        sessionStorage.setItem('fastestHit', min);
+        var hitStor1 = sessionStorage.getItem("fastestHit");
+
+        document.querySelector(".fastesthit").textContent = `Fastest Hit is : ${hitStor1}s`;
+
+        console.log(hitStor1)
+       
+      
 
 
 
@@ -299,8 +436,6 @@ resume.addEventListener("click",()=>{
 
 
 });
-
-
 
 
 

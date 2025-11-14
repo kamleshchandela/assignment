@@ -127,17 +127,17 @@ function winGuess(event){
         tempBox.style.border = "0"
 
               },
-         1000
+         500
          )
 
-        //  2. "Streak!" Message When Streak ≥ 3
+        // 2. "Streak!" Message When Streak ≥ 3
          if(streak1>=3){
             messageDisplay.style.color = "green";
             messageDisplay.textContent = "Streak 1 score 3!";
          }
 
 
-        //  4. Show "First Win!" on First Correct Answer
+        // 4. Show "First Win!" on First Correct Answer
          if(streak1===1){
             messageDisplay.style.color = "green";
             messageDisplay.textContent = "First Win!";
@@ -174,6 +174,10 @@ function winGuess(event){
 
         
         var timeint =  setInterval(()=>{
+
+
+
+            // 6. Wrong Box Shakes When Clicked
             tempBox.classList.add("color1");
             console.log("Interval chal raha hai...");
         }
@@ -182,6 +186,27 @@ function winGuess(event){
             100
 
         )
+
+       setTimeout(()=>{
+
+
+
+            // 6. Wrong Box Shakes When Clicked
+            tempBox.classList.remove("color1");
+            console.log("Interval chal raha hai...");
+        }
+            
+            ,
+            200
+
+        )
+
+
+    //     setTimeout(
+    //         clearInterval(timeint)
+    //     ,
+    // 1000
+    // )
 
         
         // setTimeout(()=>{
@@ -347,7 +372,7 @@ easyBtn.addEventListener("click",()=>{
 
 
 
-    //  3. Easy Mode Button Turns Green When Selected       
+    // 3. Easy Mode Button Turns Green When Selected       
         setEasyMode();
     
     num = 3;

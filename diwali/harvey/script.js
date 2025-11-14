@@ -137,6 +137,30 @@ setInterval(()=>{
 
 
 
+var blackscrol = document.querySelector(".blacksection");
+var blacknum = 0;
+
+
+setInterval(()=>{
+    if(blacknum<5){
+        blackscrol.style.transform = `translateX(${-blacknum*75}vw)`;
+        blacknum++;
+    }
+    else{
+        blacknum = 0;
+        blackscrol.style.transform = `translateX(${-blacknum}vw)`;
+        blacknum++;
+    }
+
+
+
+},
+6000
+
+)
+
+
+
 
 
 

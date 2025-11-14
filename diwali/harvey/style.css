@@ -16,6 +16,7 @@ body {
     font-weight: 400;
     font-size: 1rem;
     color: white;
+    overflow-x: hidden;
 
 }
 
@@ -361,7 +362,7 @@ body {
 
 .column{
     width: 100%;
-    height: 10vw;
+    height: 17vw;
     border: 2px solid white;
     column-count: 3;
     margin-top: 2vw;
@@ -369,7 +370,7 @@ body {
 
 .columnfont1{
     width: 100%;
-    height: 10vw;
+    height: 14vw;
     /* border: 2px solid white; */
     font-size: 4vw;
     font-weight: 550;
@@ -378,7 +379,7 @@ body {
 
 .columnt1{
     width: 100%;
-    height: 6vw;
+    height: 8vw;
     /* border: 2px solid white; */
     display: flex;
     justify-content: center;
@@ -400,24 +401,31 @@ body {
 
 .blackscrolbox{
     width: 100%;
-    height: 80vw;
-    border: 2px solid red;
-    overflow: hidden;
+    height: auto;
+    border: 8px solid red;
+    margin-top: 8vw;
+    overflow: auto;
+    scrollbar-width: none;
 
 }
 
 .blacksection{
-    width: 150vw;
-    height: 80vw;
+    width: 400vw;
+    height: auto;
     display: flex;
-    padding-left: 4vw;
+    padding-left: 14vw;
+    display: flex;
+    align-items: center;
+    gap: 5vw;
     border: 2px solid green;
+    transition: all 1s ease-in-out;
+    
 
 }
 
 .blackimg1{
     width: 70vw;
-    height: 80vw;
+    height: auto;
     border: 2px solid red;
 
 }
@@ -442,6 +450,7 @@ body {
     justify-content: center;
     align-items: center;
     border: 2px solid red;
+    flex-wrap: wrap;
 
 }
 
@@ -457,17 +466,24 @@ body {
     border-radius: 0.5vw;
     font-weight: 700;
     cursor: pointer;
+    border: 2px solid red;
+
     transition: all 0.4s ease-in-out;
 }
 .mainbtn1:hover{
-    opacity: 0.8;
+    color: white;
+    background-color: rgb(158, 158, 158);
 }
 
 .grayfont{
     width: 100%;
-    height: 3vw;
+    height: auto;
     color: gray;
+    display: flex;
+    justify-content: start;
+    align-items: center;
     border: 2px solid red;
+    font-size: 1.5vw;
 
 }
 
@@ -563,12 +579,31 @@ body {
         font-size: 2.5vw;
     }
     .mainbtn1{
-        width: 25vw;
-        height: 6vw;
-        font-size: 2.5vw;
+        width: 30vw;
+        height: 7vw;
+        font-size: 3vw;
+        border-radius: 2vw;
+        margin-top: 3vw;
     }
     .mainfont2,.mainfont4{
-        font-size: 2.2vw;
+        font-size: 2.5vw;
+    }
+    .main{
+        overflow-x: hidden;
+    }
+    .columnt2{
+        font-size: 2vw;
+    }
+    .columnt1{
+        font-size: 6vw;
+    }
+    .blackimagetext{
+        font-size: 3.5vw;
+        width: 90%;
+    }
+    .grayfont{
+        font-size: 3vw;
+        margin-top: 2vw;
     }
 }
 

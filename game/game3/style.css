@@ -138,19 +138,37 @@ h1 {
 
 
 .pouse{
-    width: 10vw;
+    
+    /* position: absolute; */
+    /* margin-left: 56vw; */
+    /* margin-top: -40vw; */
+    width: 20vw;
     height: 5vw;
-    position: absolute;
-    margin-left: -80vw;
-    margin-top: -40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    font-weight: 700;
+    border-radius: 1vw;
+    background-color: #667eea;
+    border: 3px solid ;
 }
 
 .resume{
-    width: 10vw;
+    
+    /* position: absolute; */
+    /* margin-left: 56vw; */
+    /* margin-top: -30vw; */
+    width: 20vw;
     height: 5vw;
-    position: absolute;
-    margin-left: -80vw;
-    margin-top: -30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    font-weight: 700;
+    border-radius: 1vw;
+    background-color: #667eea;
+    border: 3px solid ;
 }
 
 .hit{
@@ -207,6 +225,34 @@ h1 {
     
 
 }
+.fastesthit{
+    width: 25vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8vw;
+    font-weight: 900;
+    border: 3px solid ;
+    border-radius: 1vw;
+    background-color: #667eea;
+    
+
+}
+.hitNum{
+    width: 25vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8vw;
+    font-weight: 900;
+    border: 3px solid ;
+    border-radius: 1vw;
+    background-color: #667eea;
+    
+
+}
 
 .display{
     display: flex;
@@ -215,7 +261,10 @@ h1 {
     align-items: center;
 }
 
-
+.display{
+    gap: 1vw;
+    margin-left: 3vw;
+}
 
 
 
