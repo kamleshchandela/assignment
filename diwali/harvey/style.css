@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scrollbar-width: 0;
+    scrollbar-width: none;
     
     
 }
@@ -17,6 +17,7 @@ body {
     font-size: 1rem;
     color: white;
     overflow-x: hidden;
+    scrollbar-width: none;
 
 }
 
@@ -197,7 +198,7 @@ body {
     width: 100%;
     height: auto;
     margin-top: 10vw;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -234,7 +235,7 @@ body {
 
 .part1font2{
     width: 100%;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     padding-left: 3vw;
     padding-right: 3vw;
 
@@ -357,13 +358,13 @@ body {
     font-size: 2vw;
     font-weight: 600;
     margin-top: 10vw;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 
 .column{
     width: 100%;
     height: 17vw;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     column-count: 3;
     margin-top: 2vw;
 }
@@ -402,7 +403,7 @@ body {
 .blackscrolbox{
     width: 100%;
     height: auto;
-    border: 8px solid red;
+    /* border: 8px solid red; */
     margin-top: 8vw;
     overflow: auto;
     scrollbar-width: none;
@@ -417,8 +418,9 @@ body {
     display: flex;
     align-items: center;
     gap: 5vw;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     transition: all 1s ease-in-out;
+    touch-action: none;
     
 
 }
@@ -426,20 +428,30 @@ body {
 .blackimg1{
     width: 70vw;
     height: auto;
-    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4vw;
+    /* border: 2px solid red; */
 
 }
 
 .blackimage{
-    width: 100%;
+    width: 70%;
+    border-radius: 0.5vw;
+    transition: all 1.5s ease-in-out;
+    /* height: 45vw; */
     
 }
+
 
 .blackimagetext{
     width: 50vw;
     height: auto;
     font-size: 1.5vw;
-    border: 2px solid red;
+    margin-top: 6vw;
+    /* border: 2px solid red; */
 
 }
 
@@ -449,7 +461,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     flex-wrap: wrap;
 
 }
@@ -466,7 +478,8 @@ body {
     border-radius: 0.5vw;
     font-weight: 700;
     cursor: pointer;
-    border: 2px solid red;
+    margin-top: 4vw;
+    /* border: 2px solid red; */
 
     transition: all 0.4s ease-in-out;
 }
@@ -482,12 +495,19 @@ body {
     display: flex;
     justify-content: start;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-size: 1.5vw;
 
 }
 
-
+.mainfont7{
+    width: 100%;
+    height: 5vw;
+    font-size: 4.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 

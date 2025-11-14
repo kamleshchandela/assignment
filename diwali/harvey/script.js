@@ -137,6 +137,46 @@ setInterval(()=>{
 
 
 
+
+
+var img4 = document.querySelector("#img4");
+
+var arrimg4 = [
+    "https://res.cloudinary.com/dsuhb6swy/image/upload/v1763145332/Screenshot_2025-11-15_000431_dtpbnl.png",
+    "https://res.cloudinary.com/dsuhb6swy/image/upload/v1763145332/Screenshot_2025-11-15_000416_kjmlb0.png",
+    "https://res.cloudinary.com/dsuhb6swy/image/upload/v1763145332/Screenshot_2025-11-15_000455_ojeptf.png",
+    "https://res.cloudinary.com/dsuhb6swy/image/upload/v1763145332/Screenshot_2025-11-15_000443_kfqsfo.png",
+    "https://res.cloudinary.com/dsuhb6swy/image/upload/v1762966895/Screenshot_2025-11-12_223115_zmfyeg.png"
+
+]
+
+setInterval(()=>{
+        if(m<5){
+            img4.setAttribute("src",arrimg4[m]);
+            m++;
+
+        }
+        else{
+        m=0;
+            img4.setAttribute("src",arrimg4[m]);
+            m++;
+        }
+    
+},
+2000
+)
+
+
+
+
+
+
+
+
+
+
+
+
 var blackscrol = document.querySelector(".blacksection");
 var blacknum = 0;
 
@@ -152,12 +192,22 @@ setInterval(()=>{
         blacknum++;
     }
 
+    document.querySelectorAll(".blackimage")[blacknum-1].style.transform = "scale(1.2)";
+    document.querySelectorAll(".blackimage")[blacknum-1].style.borderRadius = "2vw";
+    setTimeout(()=>{
+    document.querySelectorAll(".blackimage")[blacknum-1].style.transform = "scale(1)";
+    document.querySelectorAll(".blackimage")[blacknum-1].style.borderRadius = "0.5vw";
+    },
+    3000
+    )   
 
 
 },
 6000
 
 )
+
+
 
 
 
