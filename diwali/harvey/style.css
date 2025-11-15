@@ -142,10 +142,10 @@ body {
     width: 25vw;
     height: 4vw;
     color: white;
-    font-size: 2vw;
+    font-size: 3vw;
     text-align: center;
     /* border:2px solid white; */
-    margin-top: 5vw;
+    margin-top: 10vw;
 
     
 }
@@ -425,7 +425,7 @@ body {
     gap: 5vw;
     /* border: 2px solid green; */
     transition: all 1s ease-in-out;
-    touch-action: none;
+    touch-action: pan-y;
     
     
 
@@ -810,18 +810,21 @@ body {
     }
     .mainfont2,.mainfont4{
         font-size: 2.5vw;
+        width: 40vw;
     }
     .main{
         overflow-x: hidden;
     }
     .columnt2{
         font-size: 2vw;
+        text-align: center;
     }
     .columnt1{
         font-size: 6vw;
     }
     .blackimagetext{
         font-size: 3.5vw;
+        text-align: center;
         width: 90%;
     }
     .grayfont{
@@ -833,7 +836,6 @@ body {
     }
     #thomaspart1data{
         height: 60vw;
-        border: 3px solid green;
     }
 
     #thomast1{
@@ -895,7 +897,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     gap: 0vw;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     margin-top: 4vw;
 }
 
@@ -906,7 +908,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 
 }
 .lastline2{
@@ -915,7 +917,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 
 }
 #btnid{
@@ -927,8 +929,10 @@ body {
 
 .bottomlogo{
     width: 100%;
-    height: 10vw;
+    height: 15vw;
     padding: 0;
+    margin-bottom: 5vw;
+    /* border: 3px solid red; */
 }
 
 .bottom1{
@@ -983,6 +987,13 @@ body {
 
 }
 
+#img4{
+    margin-bottom: 6vw;
+}
+
+.mainfont8{
+    font-size: 4.5vw;
+}
 
 
 
