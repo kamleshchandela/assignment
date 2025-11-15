@@ -18,38 +18,43 @@ body {
     color: white;
     overflow-x: hidden;
     scrollbar-width: none;
+    background-color: black;
 
 }
 
 
 .main{
     width: 100%;
-    height: 1000vw;
-    border: 3px solid red;
+    height: auto;
+    /* border: 3px solid yellow; */
     background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
+    margin-top: 7vw;
 }
 
 .nav{
     width: 100%;
     height: 7vw;
-    border: 3px solid green;
+    /* border: 3px solid green; */
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: start;
     padding-left: 5vw;
     gap: 0.5vw;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 .logo{
     width: 10vw;
     height: 6vw;
     margin-right: 5vw;
-    border: 3px solid green;
+    /* border: 3px solid green; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -422,6 +427,7 @@ body {
     transition: all 1s ease-in-out;
     touch-action: none;
     
+    
 
 }
 
@@ -509,34 +515,231 @@ body {
     align-items: center;
 }
 
+.mainfont8{
+    width: 100%;
+    height: 5vw;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vw;
+}
+
+.textdetailbox{
+    width: 100%;
+    height: 30vw;
+    margin-top: 6vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    /* border: 3px solid red; */
+}
 
 
+.textdetailboxdata{
+    width: 50%;
+    height: 15vw;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.3vw;
+    /* border: 3px solid red; */
+}
+.textdetailboxdata11{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* border: 3px solid red; */
+}
+.textdetailboxdata1{
+    width: 3vw;
+    /* border: 3px solid red; */
+}
+
+.textdetailboxdata2{
+    width: 100%;
+    height: auto;
+    font-weight: 600;
+
+    font-size: 1.8vw;
+    /* border: 3px solid red; */
+
+}
+
+.textdetailboxdata3{
+    width: 100%;
+    height: auto;
+    font-size: 1.3vw;
+    font-weight: 500;
+    /* border: 3px solid red; */
+
+}
+
+#thomas{
+    width: 100%;
+    height: 60vw;
+    background-color: #ced8d9;
+    color: black;
+    /* border: 3px solid red; */
+}
+
+#thomasimg{
+    width: 45vw;
+    margin-top: -7vw;
+    height: auto;
+}
+
+.thomasimgout{
+    width: 45vw;
+    height: 50vw;
+    overflow: hidden;
+    /* border: 3px solid red; */
+
+}
+
+#thomast1{
+    font-size: 1.8vw;
+}
 
 
+#thomast3{
+    margin-top: -0.5vw
+}
+
+.lastline{
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 17vw;
+    /* border: 3px solid red; */
+    margin-top: 4vw;
+}
+
+.lastline1{
+    width: 60vw;
+    height: 7vw;
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+    /* border: 3px solid red; */
+
+}
+.lastline2{
+    width: 20vw;
+    height: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid red; */
+
+}
+
+#btnid{
+    margin: 0;
+    border-radius: 2vw;
+}
 
 
+.bottom{
+    width: 100%;
+    height: auto;
+    margin-top: 5vw;
+    /* border:  3px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.bottomlogo{
+    width: 18vw;
+    height: 30vw;
+    /* border:  3px solid red; */
+    padding-top: 3vw;
+}
+
+.bottom1{
+    width: 20vw;
+    height: 30vw;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    /* border:  3px solid red; */
+
+}
+
+.bottom1t1{
+    width: 100%;
+    height: 3vw;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: gray;
+    margin-bottom: 3vw;
+    /* border:  3px solid red; */
+
+}
+
+.bottom1t2{
+    width: 100%;
+    height: 3vw;
+    font-size: 1.2vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* border:  3px solid red; */
+
+}
 
 
+.copy{
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    /* border:  3px solid red; */
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
 
+.copy1{
+    width: 60vw;
+    height: 10vw;
+    /* border:  3px solid red; */
+    font-size: 1vw;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.copy2{
+    width: 35vw;
+    height: 10vw;
+    /* border:  3px solid red; */
+    font-size: 1vw;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.ham{
+    width: 7vw;
+    display: none;
+    /* border:  3px solid red; */
+    
+}
 
 
 
@@ -625,6 +828,173 @@ body {
         font-size: 3vw;
         margin-top: 2vw;
     }
+    #thomas{
+        height: 200vw;
+    }
+    #thomaspart1data{
+        height: 60vw;
+        border: 3px solid green;
+    }
+
+    #thomast1{
+    font-size: 4vw;
+    text-align: center;
+    }
+
+    #thomast2{
+    font-size: 3vw;
+    text-align: center;
+
+    }
+    #thomast3{
+    margin-top: -0.1vw;
+    font-size: 3vw;
+    text-align: center;
+
+    }
+    .thomasimgout{
+        width: 70vw;
+        height: 106vw;
+    }
+    #thomasimg{
+        margin-top: 0vw;
+        width: 70vw;
+    }
+
+
+    .textdetailbox{
+        height: auto;
+    }
+    .textdetailboxdata{
+        width: 100%;
+        padding: 5vw;
+        gap: 2vw;
+        height: 40vw;
+    }
+    .textdetailboxdata11{
+        justify-content: center;
+    }
+    .textdetailboxdata1{
+        width: 10vw;
+    }
+    .textdetailboxdata2{
+        font-size: 4vw;
+        text-align: center;
+    }
+    .textdetailboxdata3{
+        font-size: 3vw;
+        text-align: center;
+
+    }
+
+    .lastline{
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0vw;
+    border: 3px solid red;
+    margin-top: 4vw;
+}
+
+.lastline1{
+    width: 100vw;
+    height: 7vw;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+
+}
+.lastline2{
+    width: 33vw;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+
+}
+#btnid{
+    margin: 0;
+    font-size: 3.5vw;
+    width: 30vw;
+    height: 9vw;
+}
+
+.bottomlogo{
+    width: 100%;
+    height: 10vw;
+    padding: 0;
+}
+
+.bottom1{
+    width: 40vw;
+}
+
+.bottom1t1{
+    font-size: 2.5vw;
+}
+
+.bottom1t2{
+    font-size: 2vw;
+    height: 4vw;
+}
+
+.bottom{
+    padding-left: 5vw;
+}
+
+
+.main{
+    margin-top: 10vw;
+}
+
+#nav{
+    position: fixed;
+    height: 13vw;
+    z-index: 2;
+    top: 0;
+}
+
+.logo{
+    width: 30vw;
+    height: 13vw;
+    font-size: 4.5vw;
+}
+
+.navdata{
+    display: none;
+}
+
+.nav{
+    gap: 45vw;
+}
+
+.ham{
+    display: block;
+}
+
+.copy1, .copy2{
+    font-size: 2vw;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+
 }
 
 

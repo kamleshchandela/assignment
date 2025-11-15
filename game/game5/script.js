@@ -71,6 +71,66 @@ function createCard(value){
   return card;
 }
 
+
+function matchFound(card){
+
+
+  if(card == firstCard || card.classList.contains("matched"))return;
+
+  card.classList.add("flipped")
+
+  if (firstCard == null){
+    firstCard = card;
+  }
+
+
+  secondCard = card;
+  moves++;
+  movesEl.textContent = moves;
+
+  console.log(firstCard)
+  console.log(secondCard)
+
+
+  var a = firstCard.querySelector(".back");
+  console.log("the back card for a", a.textContent);
+  var b = secondCard.querySelector(".back");
+  console.log("the back card for b", b.textContent);
+
+
+
+  
+  if(a.textContent === b.textContent){
+    firstCard.classList.add("matched");
+    secondCard.classList.add("matched");
+    firstCard = null;
+    secondCard = null;
+    matchedPairs++;
+    pairsEl.textContent = matchedPairs;
+    if(matchedPairs == 9){
+      alert("endgame")
+    }
+  }
+  else{
+    setTimeout(function(){
+      firstCard.classList.remove("flipped");
+      secondCard.classList.remove("flipped");
+      firstCard = null;
+      secondCard = null;
+
+    },
+    700
+  );
+  }
+
+
+}
+
+
+
+
+
+
 function cardMaking(){
 
   //destructure method concept
@@ -90,8 +150,43 @@ function cardMaking(){
     const card = createCard(value);
     // console.log(i);
     console.log(card);
+
+    board.appendChild(card);
+
+    card.addEventListener("click",function (){
+      matchFound(card);
+
+
+
+      
+
+    })
+      
+      
+
+    
+
   })
   
 }
 
 cardMaking();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

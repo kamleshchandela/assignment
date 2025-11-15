@@ -202,11 +202,48 @@ body{
     
 }
 
+a{
+    width: 100%;
+    height: 15vw;
+    border: 3px solid red;
+}
 
 
 
 
 
+@media screen and (max-width:1000px) {
+    .nav{
+        height: 15vw;
+        font-size: 5vw;
+    }
+    .webname{
+        font-size: 5vw;
+        height: 15vw;
+    }
+    .webname:hover{
+        font-size: 5vw;
+        height: 15vw;
+    }
+    .webdata{
+        font-size: 3vw;
+        height: 7vw;
+    }
+    .webdata:hover{
+        font-size: 3vw;
+        height: 7vw;
+    }
+    .btn1{
+        height: 10vw;
+        width: 70vw;
+        font-size: 3.5vw;
+    }
+    .btn1:hover{
+        height: 10vw;
+        width: 70vw;
+        font-size: 3.5vw;
+    }
+}
 
 
 
