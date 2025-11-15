@@ -836,6 +836,7 @@ body {
     }
     #thomaspart1data{
         height: 60vw;
+        margin-top: -30vw;
     }
 
     #thomast1{
@@ -912,18 +913,18 @@ body {
 
 }
 .lastline2{
-    width: 33vw;
+    width: 40vw;
     height: 10vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 3px solid red; */
+    border: 3px solid red;
 
 }
 #btnid{
     margin: 0;
     font-size: 3.5vw;
-    width: 30vw;
+    width: 40vw;
     height: 9vw;
 }
 
