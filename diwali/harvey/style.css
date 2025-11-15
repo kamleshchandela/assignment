@@ -142,10 +142,10 @@ body {
     width: 25vw;
     height: 4vw;
     color: white;
-    font-size: 3vw;
+    font-size: 2vw;
     text-align: center;
     /* border:2px solid white; */
-    margin-top: 10vw;
+    margin-top: 15vw;
 
     
 }
@@ -918,7 +918,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 
 }
 #btnid{
