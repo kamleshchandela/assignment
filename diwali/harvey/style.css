@@ -946,6 +946,7 @@ a{
     }
     .blackimagetext{
         font-size: 3.5vw;
+        line-height: 5vw;
         text-align: center;
         width: 90%;
     }
@@ -961,10 +962,12 @@ a{
     }
     #thomaspart1data{
         height: 60vw;
-        margin-top: -30vw;
+        width: 70vw;
+        margin-top: 0vw;
     }
 
     #thomast1{
+    
     font-size: 4vw;
     text-align: center;
     }
@@ -978,7 +981,7 @@ a{
     margin-top: -0.1vw;
     font-size: 3vw;
     text-align: center;
-
+    
     }
     .thomasimgout{
         width: 70vw;
