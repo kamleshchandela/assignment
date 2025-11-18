@@ -15,6 +15,9 @@ const rows = 3;   // grid layout chosen via CSS; use 6x3 = 18 cards (9 pairs)
 const cols = 6;
 const totalPairs = 9;
 const initialTime = 60;  // seconds
+var i = 60;
+
+
 
 // Game State
 let firstCard = null;
@@ -26,6 +29,12 @@ let timeLeft = initialTime;
 let timerId = null;
 let pendingTimeouts = [];
 let bestScore = null;
+
+
+
+
+
+
 
 //Step-1
 //Call -> entire previous data -> store -> bestScore variable...
@@ -148,4 +157,57 @@ function cardMaking() {
     })
 }
 
-cardMaking();
+function endgame(){
+    clearInterval(timerId);
+    startBtn.disabled = false;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+function timeer (){
+    timerId = setInterval(()=>{
+        timeEl.textContent = i;
+        i--;
+        console.log("hii")
+        if(i == -1){
+        endgame();
+        
+    }
+
+    }
+    
+,
+1000
+
+)
+
+}
+
+
+
+
+function startGame(){
+    i = 5;
+    startBtn.disabled = true;
+    timeer();
+
+    cardMaking();
+}
+
+
+
+
+
+
+
+
+startBtn.addEventListener("click",startGame)

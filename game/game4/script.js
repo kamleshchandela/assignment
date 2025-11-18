@@ -148,6 +148,21 @@ function updateStatus() {
     const wpm = elapsedTime > 0 ? Math.floor(words.length / elapsedTime) : 0;
     wpmDisplay.textContent = wpm;
 
+
+
+
+
+    // 1. "Lightning Fast!" When WPM > 100
+    if(wpm > 100){
+        textDisplay.style.fontWeight = "900";
+    }
+    else{
+        textDisplay.style.fontWeight = "500";
+    }
+
+
+
+
     let currentScore = 0;
     for (let i = 0; i < typed.length; i++) {
         if (currentText[i] === typed[i]) {
@@ -157,6 +172,22 @@ function updateStatus() {
 
     const accuracy = typed.length > 0 ? Math.floor((currentScore / typed.length) * 100) : 0;
     accuracyDisplay.textContent = accuracy;
+
+
+
+
+
+
+    // 2. "Perfect!" on 100% Accuracy
+    if(accuracy==100){
+        document.querySelector(".accuracy").textContent = "Perfect!";
+        document.querySelector(".accuracy").style.color = 'green';
+        document.querySelector(".accuracy").style.backgroundColor = 'white';
+    }
+    else{
+        document.querySelector(".accuracy").textContent = "";
+        document.querySelector(".accuracy").style.backgroundColor = 'transparent';
+    }
 }
 
 var currentText1;
