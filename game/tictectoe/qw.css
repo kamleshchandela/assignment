@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.main{
+    height: 98vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vmin;
+    
+    border: 5px solid rgb(8, 238, 58);
+}
+
+.game{
+    
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap :1.5vmin;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 5vmin;
+    background-color: white;
+    color: black;
+    font-size: 10vmin;
+    font-weight: bold;
+    border: none;
+    
+}
+.box:hover{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 20px;
+    background-color: gray;
+    border: none;
+}
+
+.text{
+    color: rgb(255, 0, 0);
+    background-color: #68C5DB;
+    width: 50vmin;
+    height: 12vmin;
+    display: flex;
+    font-size: 8vmin;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3vh;
+    margin-top: 2vmin;
+
+}
+
+.line{
+    display: flex;
+    
+    width: 80vmin;
+    height: 10vmin;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#reset-btn{
+    background-color: #68C5DB;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vmin;
+    height: 7vmin;
+    width: 35vmin;
+    border-radius: 10vmin;
+    font-weight: bold;
+}
+#reset-btn:hover{
+    background-color: orange;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    transform: scale(1.1);
+    align-items: center;
+    font-size: 5vmin;
+    height: 7vmin;
+    width: 35vmin;
+    border-radius: 10vmin;
+    font-weight: bold;
+}
+
+
+
+#new-btn{
+    background-color: #68C5DB;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vmin;
+    height: 7vmin;
+    width: 35vmin;
+    border-radius: 10vmin;
+    font-weight: bold;
+}
+#new-btn:hover{
+    background-color: red;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    transform: scale(1.1);
+    align-items: center;
+    font-size: 5vmin;
+    height: 7vmin;
+    width: 35vmin;
+    border-radius: 10vmin;
+    font-weight: bold;
+}
+
+
+
+
+
+.msgbtn{
+    background-color: #68C5DB;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vmin;
+    height: 7vmin;
+    width: 50vmin;
+    border-radius: 10vmin;
+    font-weight: bold;
+}
+.msgbtn:hover{
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    font-size: 5vmin;
+    height: 7vmin;
+    width: 50vmin;
+    border-radius: 10vmin;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

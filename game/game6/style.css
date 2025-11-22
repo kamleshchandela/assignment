@@ -274,3 +274,38 @@ dropdown*/
         min-width: 96%;
     }
 }
+
+.save {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    padding: 0.8rem 1.6rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 114, 255, 0.3);
+    letter-spacing: 0.5px;
+}
+
+/* Hover Effect */
+.save:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0, 114, 255, 0.45);
+    background: linear-gradient(135deg, #0093ff, #005fd4);
+}
+
+/* Active Click Effect */
+.save:active {
+    transform: scale(0.97);
+}
+
+
+
+
+
+
+
+
