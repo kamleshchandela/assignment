@@ -1,0 +1,356 @@
+/* simbol */
+
+
+.ok1{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758791407/I0Y2mCsQQEf0nV7dDKuLkeMDBXUS2lQlQerBNp_e9lZi6ymUZ-ymBMpKVDG72C4bh1c_b3ry7c.png);
+    margin-top: 10px;
+    width: 100px;
+    height: 60px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* main img */
+
+.mainimg{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758794197/y14ijhs95yjvvcho9hhm.webp);
+    background-size: 100%;
+    width: 500px;
+    height: 200px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
+    
+    
+    
+}
+
+
+.img1{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758794635/4db19be1-1879-405a-a371-ff5f0a80bf57_Healthwellness_njmpbj.png);
+    background-size: 100%;
+    width: 100px;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+.img2{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758794631/74c92fa5-9f72-4a52-8740-e1341756a0dd_Babycare_hrokjh.png);
+    background-size: 100%;
+    width: 100px;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+.img3{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758794621/e1831153-c99d-47ab-8cc0-6a6a671b18cb_c3new20_xmd91t.png);
+    background-size: 100%;
+    width: 100px;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+.img4{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758794605/79ff0a53-74d4-4b7a-83e1-fb2c0ebb20d6_Groceryessentials_j1labp.png);
+    background-size: 100%;
+    width: 100px;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+.img5{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758794590/190927a6-75f9-4bb8-b249-a02eac92fe25_Cetaphil1_kogq7h.png);
+    background-size: 100%;
+    width: 100px;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+.img6{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758794585/46993b49-52ab-4b68-aa11-3726b0acf486_Indulgencecorner_lxpqbj.png);
+    background-size: 100%;
+    width: 100px;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+.img7{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758794795/2a7dc59d-a232-422f-9b53-943ca2d72a21_d65afeae475e4bb5bd4f1f8da9d60503Homekitchen_p9fbvz.png);
+    background-size: 100%;
+    width: 100px;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+.img8{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758794878/4e233377-edad-4a83-8981-0c85e36bfa13_Cleaningessentials_oiuqwm.png);
+    background-size: 100%;
+    width: 100px;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+.img9{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758794929/dd2a3c81-bee0-47f1-8c01-75c84fde8258_Toyscollection_wd3sas.png);
+    background-size: 100%;
+    width: 100px;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+
+.photo{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+.nav{
+    display: flex;
+}
+
+/* section arenge ment */
+
+
+.section1, .section1data{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+
+
+/* secion 1 img */
+
+.img11{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200/NI_CATALOG/IMAGES/CIW/2025/1/3/c3a6e1b3-7877-4b7e-a764-a25ab487dda8_214_1.png);
+    background-size: 100%;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.img13{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200/NI_CATALOG/IMAGES/CIW/2025/8/25/a6bfc853-f43d-490c-a29e-f7ff02fd2b0d_876275_1.png);
+    background-size: 100%;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.img14{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200/NI_CATALOG/IMAGES/CIW/2025/6/2/4cf4b13b-17ac-477c-b607-b4335c181974_525613_1.png);
+    background-size: 100%;
+    width: 200px;
+    height: 275px;
+    background-repeat: no-repeat;
+}
+.img15{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200/NI_CATALOG/IMAGES/CIW/2025/8/18/c86ddc93-d0be-42cb-a3e4-1867632ed350_79429_1.png);
+    background-size: 100%;
+    width: 200px;
+    height: 275px;
+    background-repeat: no-repeat;
+}
+.img16{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200/NI_CATALOG/IMAGES/CIW/2024/11/21/d43ccd0d-5602-4ceb-8073-cf019446e1dc_602.png);
+    background-size: 100%;
+    width: 200px;
+    height: 275px;
+    background-repeat: no-repeat;
+}
+.img17{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200/NI_CATALOG/IMAGES/CIW/2025/9/20/fe817f08-285e-4412-a6a1-0745fd569dc9_26282_1.png);
+    background-size: 100%;
+    width: 200px;
+    height: 275px;
+    background-repeat: no-repeat;
+}
+
+
+/* secion 2 img */
+
+.img21{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200/5a167894463a877a59b4cd0d3722ef34);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+.img22{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758795247/054e83b5ebe789cf4b7b146319df4cfc_nwzyqg.jpg);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+.img23{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758795229/e14f5d679f7ac81a64b7ae831afcfe9a_t1016t.jpg);
+    background-size: 100%;
+    width: 200px;
+    height: 275px;
+    background-repeat: no-repeat;
+}
+.img24{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758795222/9dcdda70-4fd6-4399-b28a-5ec84c55188c_2435_1_rhw6fg.png);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+.img25{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758795205/765ff374dd4023fde2d3936ec482814d_agx7tt.jpg);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+.img26{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1758795213/5abfb3f08ea92d31125ca290bb0edc1b_eycxyb.jpg);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+
+.main{
+    background-color: blue;
+}
+/* secion 3 img */
+
+.img31{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200/NI_CATALOG/IMAGES/CIW/2025/9/19/1d02b229-f988-413a-bfb4-ba16aaea132f_7bd1dcf3-47bb-4db9-ba00-21ed735b05ee);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+.img32{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200/NI_CATALOG/IMAGES/CIW/2025/9/19/9a72e7dc-8a85-4287-b367-b3b28b1980d5_66dca255-1c06-4212-b318-76f3223bf240);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+.img33{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200/NI_CATALOG/IMAGES/CIW/2025/9/19/27456e9b-78fc-43e7-98cf-ece34a220f31_7289e22b-b60e-43ad-bd29-5d011bbb6d4c);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+.img34{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200/NI_CATALOG/IMAGES/CIW/2025/9/19/e008e35c-ef37-462f-927f-b074ba543c91_78c8d4f1-c1c7-4f91-80cb-fe61afd3a2c2);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+.img35{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200/NI_CATALOG/IMAGES/CIW/2025/9/19/9680cf13-8370-475b-9314-121695fe8997_de95d5d8-7441-45e6-b3ee-ba1af85ba3d6);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+.img36{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200/NI_CATALOG/IMAGES/CIW/2025/9/19/5b30bb37-0c7c-4a6a-8af2-4d8551fc62b4_3d652fd7-fafc-4378-b6f2-5d6f74cdd670);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+
+
+.img41{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200/NI_CATALOG/IMAGES/CIW/2025/9/19/869df604-9b66-4c12-a73f-c991bc040ae4_31fa21e3-67de-4612-8645-7d6951111e95);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+.img42{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200/NI_CATALOG/IMAGES/CIW/2025/9/19/918d5ee0-3366-43d6-8016-e9dba47c5576_6c89cd56-04bf-4674-9f1c-5dd2c216a599);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+.img43{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200/NI_CATALOG/IMAGES/CIW/2025/9/19/91671d64-c6e5-47f2-84bc-c42294a33bd9_7d20d65b-1d6e-4340-86ea-06c9a8641119);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+.img44{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200/NI_CATALOG/IMAGES/CIW/2025/9/19/2718534d-0ffb-4f5b-b040-c7ab6a93ebfa_fbeb702c-afe1-4c07-a2f9-32ce96ab0034);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+.img45{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200/NI_CATALOG/IMAGES/CIW/2025/9/19/fa61ac6b-437e-4b6d-9257-8f60be58a3d4_896df38f-6fb3-4a09-b84c-2c7aee543248);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+.img46{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200/NI_CATALOG/IMAGES/CIW/2025/9/19/137c208c-eb4e-4f0b-8c3c-8dfa8d2ffe0a_62e9716c-fbc9-4478-a723-fb0ed298a172);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+
+
+.img51{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_204/MERCHANDISING_BANNERS/IMAGES/MERCH/2025/4/8/70670590-644d-4a3d-b5c3-1a0608a5dc97_PartyStore120X160.png);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+.img52{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_204/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/10/9/23e58e2a-322c-4790-90e4-c792a136ed73_GourmetStore1.png);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+.img53{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_204/MERCHANDISING_BANNERS/IMAGES/MERCH/2025/6/19/a4456f30-db3f-4407-8e79-b5cfd99f9de1_petStore120X160.png);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+.img54{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_204/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/8/3/0d69458a-b254-429d-910d-681e16d63b77_Healthwellness1.png);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+.img55{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_204/MERCHANDISING_BANNERS/IMAGES/MERCH/2025/2/3/68ee8d74-aceb-4e1d-8304-e9ec2273276b_Flavourofindia120X1602.png);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+.img56{
+    background-image: url(https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_204/MERCHANDISING_BANNERS/IMAGES/MERCH/2025/6/19/b7e08d6d-b699-4641-8c77-45eb462161c1_toyStore120X160.png);
+    background-size: 100%;
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+
+
+
+.add{
+   display: flex;
+   justify-content: center;
+}
+
+
+
