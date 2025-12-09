@@ -1,0 +1,505 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+
+
+
+
+.nav{
+    width: 100%;
+    height: 8vw;
+    /* background-color: rgb(57, 57, 57); */
+    /* border: 2px solid red; */
+    display: flex;
+    position: fixed;
+    align-items: center;
+}
+
+.logo{
+    width: 25vw;
+    height: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1vw;
+    border-radius: 4vw;
+    font-weight: 900;
+    cursor: pointer;
+    margin-left: 2vw;
+    border: 0.2vw solid black;
+    background: linear-gradient( to right , rgb(15, 155, 255) , rgb(255, 146, 21));
+    /* border: 2px solid red; */
+        
+}
+.logo:hover{
+    background: linear-gradient( to right , rgb(255, 146, 21) , rgb(15, 155, 255));
+
+}
+
+.logot{
+    font-size: 1.5vw;
+}
+
+.city{
+    min-width: 15vw;
+    max-width: auto;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8vw;
+    font-weight: 800;
+    border-radius: 1vw;
+    margin-left: 2vw;
+    background-color: black;
+    padding-left: 2vw ;
+    padding-right: 2vw ;
+    /* border: 2px solid red; */
+    cursor: pointer;
+    border: 0.15vw solid rgb(0, 174, 255);
+    transition: all 0.5s ease-in-out;
+
+}
+
+.city:hover{
+    background-color: rgb(22, 49, 65);
+}
+
+.city img {
+    width: 1.5vw;
+    margin-left: 1vw;
+}
+
+.serch{
+    width: 30vw;
+    height: 5vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-left: 1vw;
+    background-color: black;
+    border: 0.15vw solid rgb(0, 174, 255);
+    border-radius: 1vw;
+
+}
+
+.searchlogo{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 0.5vw;
+
+    background-color: #1E1E1E;
+    border: 0.15vw solid rgb(0, 174, 255);
+
+    
+}
+
+
+.searchlogo img{
+    width: 3vw;
+    border-radius: 50%;
+
+}
+
+.main{
+    width: 100%;
+    height: 200vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 3px solid red; */
+}
+
+.mainimg{
+    width: 100%;
+    height: 55vw;
+    /* border: 3px solid red; */
+
+}
+
+
+
+.data{
+    width: 100%;
+    height: auto;
+    /* border: 3px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+    padding: 3vw;
+    background-color: black;
+    align-items: center;
+
+}
+
+.box{
+    width: 35vw;
+    height: 15vw;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    /* border: 3px solid red; */
+    cursor: pointer;
+    background-color: rgb(22, 21, 21);
+    
+}
+
+
+#img1{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1765285847/white-fluffy-clouds-blue-sky-13021969_idqgjw.jpg);
+    animation: ok 15s infinite ease-in-out;
+}
+#img1:hover{
+    border: 0.2vw solid #01589B;
+    background-image: url();
+    .box1 , .box2{
+        color: white;
+    }
+    color: white;
+}
+
+
+
+#img2{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1765285846/photo-1504253163759-c23fccaebb55_aclqsb.jpg);
+    animation: ok 15s infinite ease-in-out;
+}
+#img2:hover{
+    border: 0.2vw solid #01589B;
+    background-image: url();
+    .box1 , .box2{
+        color: white;
+    }
+    color: white;
+}
+
+
+
+#img3{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1765285847/cloud-blue-sky_1122-624_ac5i4v.jpg);
+    animation: ok 15s infinite ease-in-out;
+}
+#img3:hover{
+    border: 0.2vw solid #01589B;
+    background-image: url();
+    .box1 , .box2{
+        color: white;
+    }
+    color: white;
+}
+
+
+
+#img4{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1765285847/white-fluffy-clouds-blue-sky-13021969_idqgjw.jpg);
+    animation: ok 15s infinite ease-in-out;
+}
+#img4:hover{
+    border: 0.2vw solid #01589B;
+    background-image: url();
+    .box1 , .box2{
+        color: white;
+    }
+    color: white;
+}
+
+
+
+#img5{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1765285846/photo-1603437873662-dc1f44901825_rsclf9.jpg);
+    animation: ok 15s infinite ease-in-out;
+}
+#img5:hover{
+    border: 0.2vw solid #01589B;
+    background-image: url();
+    .box1 , .box2{
+        color: white;
+    }
+    color: white;
+}
+
+
+
+#img6{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1765285846/blue-clouds-day-fluffy-53594.jpeg_hq8kdl.jpg);
+    animation: ok 15s infinite ease-in-out;
+}
+#img6:hover{
+    border: 0.2vw solid #01589B;
+    background-image: url();
+    .box1 , .box2{
+        color: white;
+    }
+    color: white;
+}
+
+
+
+#img7{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1765285847/white-fluffy-clouds-blue-sky-13021969_idqgjw.jpg);
+    animation: ok 15s infinite ease-in-out;
+}
+#img7:hover{
+    border: 0.2vw solid #01589B;
+    background-image: url();
+    .box1 , .box2{
+        color: white;
+    }
+    color: white;
+}
+
+
+
+#img8{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1765285846/photo-1504253163759-c23fccaebb55_aclqsb.jpg);
+    animation: ok 15s infinite ease-in-out;
+}
+#img8:hover{
+    border: 0.2vw solid #01589B;
+    background-image: url();
+    .box1 , .box2{
+        color: white;
+    }
+    color: white;
+}
+
+
+
+#img9{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1765285847/cloud-blue-sky_1122-624_ac5i4v.jpg);
+    animation: ok 15s infinite ease-in-out;
+}
+#img9:hover{
+    border: 0.2vw solid #01589B;
+    background-image: url();
+    .box1 , .box2{
+        color: white;
+    }
+    color: white;
+}
+
+
+
+#img10{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1765285847/white-fluffy-clouds-blue-sky-13021969_idqgjw.jpg);
+    animation: ok 15s infinite ease-in-out;
+}
+#img10:hover{
+    border: 0.2vw solid #01589B;
+    background-image: url();
+    .box1 , .box2{
+        color: white;
+    }
+    color: white;
+}
+
+
+
+#img11{
+    background-image: url(https://res.cloudinary.com/dsuhb6swy/image/upload/v1765298420/photo-1513002749550-c59d786b8e6c_gbfmrd.jpg);
+    animation: ok1 15s infinite ease-in-out;
+    height: 30vw;
+    
+}
+#img11:hover{
+    border: 0.2vw solid #01589B;
+    background-image: url();
+    .box1 , .box2{
+        color: white;
+    }
+    color: white;
+}
+
+
+
+
+
+
+
+@keyframes ok1 {
+    0%{
+        background-size: 100%;
+
+    }
+    50%{
+        background-size: 120%;
+
+    }
+    100%{
+        background-size: 100%;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes ok {
+    0%{
+        background-size: 100%;
+
+    }
+    50%{
+        background-size: 150%;
+
+    }
+    100%{
+        background-size: 100%;
+
+    }
+}
+
+
+
+.box1{
+    width: 100%;
+    height: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-weight: 900;
+    letter-spacing: 0.1vw;
+    border-radius: 2vw ;
+    color: black;
+
+    /* border: 3px solid red; */
+
+
+}
+
+.box2{
+    width: 100%;
+    height: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-weight: 900;
+    letter-spacing: 0.1vw;
+    border-radius: 2vw ;
+    color: black;
+
+
+    /* border: 3px solid red; */
+
+
+}
+
+.icone{
+    width: 8vw;
+}
+
+
+
+@media screen and (max-width : 900px) {
+    .box{
+        width: 70vw;
+        height: 35vw;
+    }
+    .box1 , .box2{
+        height : 15vw;
+        font-size: 5vw;
+    }
+    .icone{
+        width: 30vw;
+    }
+    #img11{
+        height: 80vw;
+        margin-bottom: 20vw;
+    }
+    .nav{
+        height: 15vw;
+        background-color: black;
+        padding: 2vw;
+        
+    }
+    .logo{
+        width: 30vw;
+        height: 10vw;
+        border-radius: 10vw ;
+        font-size: 4vw;
+        margin: 0;
+    }
+    .logot{
+        font-size: 2.5vw;
+    }
+    .serch{
+        width: 30vw;
+        height: 8vw;
+        border-radius: 3vw;
+        font-size: 3vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        margin-left: 2vw;
+
+    }
+    .searchlogo{
+        width: 8vw;
+        height: 8vw;
+        margin-left: 2vw;
+    }
+    .searchlogo img {
+        width: 4vw;
+    }
+    .city{
+        height: 8vw;
+        border-radius: 3vw;
+    }
+    .mainimg{
+        margin-top: 9vw;
+    }
+    .city{
+        font-size: 2.5vw;
+        font-weight: 600;
+    }
+    .data{
+        margin-top: 15vw;
+        gap: 4vw;
+    }
+}
+
+
+
+
+
+
+
+
+
