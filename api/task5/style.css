@@ -1,0 +1,75 @@
+body {
+    background: #111;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    padding: 4vh 5vw;
+}
+
+/* Input box */
+.input {
+    width: 50vw;
+    padding: 2vh 2vw;
+    border-radius: 0.8vw;
+    border: 0.2vw solid #444;
+    outline: none;
+    background: #181818;
+    color: #fff;
+    font-size: 1.3vw;
+    transition: 0.3s ease;
+}
+
+/* Hover + focus effect */
+.input:hover,
+.input:focus {
+    border-color: #ff4d4d;
+    box-shadow: 0 0 1vw rgba(255, 77, 77, 0.4);
+}
+
+/* Button */
+.search {
+    padding: 2vh 3vw;
+    margin-left: 1vw;
+    font-size: 1.2vw;
+    cursor: pointer;
+    border-radius: 0.8vw;
+    border: none;
+    background: #ff4d4d;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+/* Button Hover */
+.search:hover {
+    background: #ff1f1f;
+    box-shadow: 0 0 1.2vw rgba(255, 31, 31, 0.5);
+    transform: translateY(-0.4vh);
+}
+
+/* Output box */
+.all {
+    margin-top: 5vh;
+    padding: 3vh 2vw;
+    background: #1a1a1a;
+    border-radius: 1vw;
+    border: 0.15vw solid #333;
+    min-height: 10vh;
+}
+
+/* Result text */
+.all p {
+    background: #222;
+    padding: 1.5vh 1vw;
+    margin: 1vh 0;
+    border-radius: 0.8vw;
+    font-size: 1.3vw;
+    transition: 0.3s ease;
+}
+
+/* Hover effect on results */
+.all p:hover {
+    background: #ff4d4d;
+    color: #fff;
+    transform: translateX(1vw);
+    box-shadow: 0 0 1vw rgba(255, 77, 77, 0.4);
+}

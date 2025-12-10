@@ -1,6 +1,9 @@
 
 var all = document.querySelector(".all");
 var btn = document.querySelector(".btn");
+var ham = document.querySelector(".menu");
+var cros = document.querySelector(".menu img");
+var hambox = document.querySelector(".hamdata");
 
 
 
@@ -88,6 +91,52 @@ btn.addEventListener("click",()=>{
     console.log(k)
     ok(k);
 })
+
+
+
+var num = 1;
+
+ham.addEventListener("click" , ()=>{
+
+    if(num == 1){
+        cros.setAttribute( "src" , "https://res.cloudinary.com/dsuhb6swy/image/upload/v1765359721/6372150_tj30cc.png" );
+        hambox.style.transform = "translateX(3vw)";
+        
+        num = 0;
+    }
+    else{
+        cros.setAttribute( "src" , "https://res.cloudinary.com/dsuhb6swy/image/upload/v1765342049/menu-icon-png-3-lines-11552728985kzvoymuey0_w6isn1.png" );
+        hambox.style.transform = "translateX(-100vw)";
+        
+        num = 1;
+    }
+    
+})
+
+all.addEventListener("click" , ()=>{
+    cros.setAttribute( "src" , "https://res.cloudinary.com/dsuhb6swy/image/upload/v1765342049/menu-icon-png-3-lines-11552728985kzvoymuey0_w6isn1.png" );
+    hambox.style.transform = "translateX(-100vw)";
+
+    num = 1;
+})
+
+console.log(parseInt(Math.random()*100));
+
+document.querySelector(".logo").addEventListener("click" , ()=> {
+        all.innerHTML = "";
+        k = 3;
+        ok(k);
+})
+
+
+
+
+
+
+
+
+
+
 
 
 
