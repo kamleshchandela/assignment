@@ -8,16 +8,24 @@ var hambox = document.querySelector(".hamdata");
 
 
 
-function ok (k){
+function ok (k , value1){
 
 
-    for (let i = k ; i < k + 8 ; i++){
+    
         
     
-fetch("api.json")
+fetch(`https://content.guardianapis.com/search?q=${value1}&api-key=03648588-df3c-4897-91f0-fd496e5a829c&show-fields=thumbnail&page-size=13`)
 .then((response)=>response.json())
 .then((data)=>{
-    console.log(data);
+    console.log(data.results);
+
+    for (let i = k ; i < k + 8 ; i++){
+    
+
+    if(data.response.results[i] == undefined){
+        btn.style.display = "none";
+        return;
+    }
 
 
 
@@ -29,7 +37,7 @@ fetch("api.json")
     var img = document.createElement("img");
     box.appendChild(img);
     img.classList.add("img");
-    img.setAttribute("src" , data.articles[i].urlToImage)
+    img.setAttribute("src" , data.response.results[i].fields.thumbnail)
 
 
 
@@ -43,26 +51,37 @@ fetch("api.json")
 
     var data1 = document.createElement("div");
     data11.appendChild(data1);
-    data1.textContent = data.articles[i].title;
-    console.log(data.articles[i].title)
+    data1.textContent = data.response.results[i].sectionId;
+    console.log(data.response.results[i].sectionName)
     data1.classList.add("data1");
 
 
 
     var data2 = document.createElement("div");
     data11.appendChild(data2);
-    data2.textContent = data.articles[i].content;
-    data2.setAttribute("title" , data.articles[i].content)
+    data2.textContent = data.response.results[i].sectionName;
+    data2.setAttribute("title" , data.response.results[i].sectionName)
     data2.classList.add("data2");
 
+    var data3 = document.createElement("div");
+    data11.appendChild(data3);
+    data3.textContent = data.response.results[i].webTitle;
+    data3.setAttribute("title" , data.response.results[i].webTitle)
+    data3.classList.add("data3");
+
+
+    var data4 = document.createElement("div");
+    data11.appendChild(data4);
+    data4.textContent = data.response.results[i].webPublicationDate;
+    data4.setAttribute("title" , data.response.results[i].webPublicationDate)
+    data4.classList.add("data4");
 
 
 
 
 
 
-
-
+    }
 
 
 
@@ -79,10 +98,10 @@ fetch("api.json")
 
 
 
-}
 
 
-ok(0);
+
+ok(0 , "india");
 
 var k = 0;
 
@@ -131,10 +150,43 @@ document.querySelector(".logo").addEventListener("click" , ()=> {
 
 
 
+document.addEventListener("keypress" , (e)=>{
+    if( e.key == "Enter" && document.querySelector(".search").value != "" ){
+        var value1 = document.querySelector(".search").value;
+        all.innerHTML = "";
+        document.querySelector(".search").value = "";
+        console.log(value1)
+        ok( 0 , value1);
+    }
 
 
+})
 
 
+document.querySelector(".meg").addEventListener("click" , ()=>{
+    if( document.querySelector(".search").value != "" ){
+        var value1 = document.querySelector(".search").value;
+        all.innerHTML = "";
+        document.querySelector(".search").value = "";
+        console.log(value1)
+        ok( 0 , value1);
+    }
+
+
+})
+
+
+document.addEventListener("click" , (e)=>{
+    if(e.target.className == "hamdata1"){
+        var value1 = e.target.textContent;
+        all.innerHTML = "";
+        document.querySelector(".search").value = "";
+        // document.querySelector(".search").setAttribute("placeholder" , value1 + "...");
+        console.log(value1)
+        ok( 0 , value1);
+
+    }
+})
 
 
 
