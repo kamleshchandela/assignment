@@ -466,6 +466,11 @@ body{
     justify-content: center;
     align-items: center;
     }
+
+    .footer-right {
+    display: flex;
+    gap: 5vw;
+    }
 }
 
 
