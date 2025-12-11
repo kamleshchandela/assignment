@@ -143,10 +143,54 @@ all.addEventListener("click" , ()=>{
 
 console.log(parseInt(Math.random()*100));
 
+var w = 0;
 document.querySelector(".logo").addEventListener("click" , ()=> {
         all.innerHTML = "";
-        k = 3;
-        ok(k);
+       if(w == 0){
+        ok(0 , "Business");
+        w++;
+       }
+       else if(w == 1){
+        ok(0 , "Politics");
+        w++;
+       }
+       else if(w == 2){
+        ok(0 , "Sports");
+        w++;
+       }
+       else if(w == 3){
+        ok(0 , "Technology");
+        w++;
+       }
+       else if(w == 4){
+        ok(0 , "Environment");
+        w++;
+       }
+       else if(w == 5){
+        ok(0 , "Startup");
+        w++;
+       }
+       else if(w == 6){
+        ok(0 , "Entertainment");
+        w++;
+       }
+       else if(w == 7){
+        ok(0 , "Health");
+        w++;
+       }
+       else if(w == 8){
+        ok(0 , "Weather");
+        w++;
+       }
+       else if(w == 9){
+        ok(0 , "Crime");
+        w++;
+       }
+       else{
+        ok(0 , "Hatke");
+        w = 0;
+       }
+        
 })
 
 
@@ -156,7 +200,7 @@ document.addEventListener("keypress" , (e)=>{
     if( e.key == "Enter" && document.querySelector(".search").value != "" ){
         var value1 = document.querySelector(".search").value;
         all.innerHTML = "";
-        
+
         document.querySelector(".search").value = "";
         console.log(value1)
         ok( 0 , value1);
