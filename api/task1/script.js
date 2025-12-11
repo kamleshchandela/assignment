@@ -147,7 +147,9 @@ var arr = [
     "https://res.cloudinary.com/dsuhb6swy/image/upload/v1765297071/488667_wp3vi4.jpg",
     "https://res.cloudinary.com/dsuhb6swy/image/upload/v1765294773/10834368_pxynoh.jpg",
     "https://res.cloudinary.com/dsuhb6swy/image/upload/v1765297176/7322677_tsleyj.jpg",
-    "https://res.cloudinary.com/dsuhb6swy/image/upload/v1765297182/1359320_mkh8z9.jpg"
+    "https://res.cloudinary.com/dsuhb6swy/image/upload/v1765297182/1359320_mkh8z9.jpg",
+    "https://res.cloudinary.com/dsuhb6swy/image/upload/v1765459109/WhatsApp_Image_2025-12-11_at_6.48.01_PM_wc6x0k.jpg",
+    "https://res.cloudinary.com/dsuhb6swy/image/upload/v1765284410/10834364_x5rcsk.jpg"
     
     
     
@@ -156,7 +158,7 @@ var arr = [
 var i = 0;
 
 setInterval(()=>{
-    if( i < 5 ){
+    if( i < 7 ){
         document.querySelector("#img").setAttribute("src" , arr[i]);
         i++;
     }
