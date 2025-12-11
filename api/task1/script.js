@@ -1,4 +1,6 @@
 
+var clickR = document.querySelector(".data");
+var clickR1 = document.querySelector(".mainimg");
 var id1 = document.querySelector("#data1");
 var id2 = document.querySelector("#data2");
 var id3 = document.querySelector("#data3");
@@ -16,7 +18,8 @@ var id14 = document.querySelector("#data14");
 var serch = document.querySelector("#serch");
 var btn = document.querySelector("#logoS");
 var mainCity = document.querySelector("#mainCity");
-
+var hambox = document.querySelector(".hamdata");
+var click = document.querySelector(".city");
 
 function data (city) {
 
@@ -75,11 +78,49 @@ document.addEventListener("keypress" , (e)=>{
 
 
 
+var count = 1;
+click.addEventListener("click",()=>{
+    if(count == 1){
+        hambox.style.transform = "translateX(2vw)";
+        clickR.style.opacity = "0.4"
+        clickR1.style.opacity = "0.4"
+        count = 0;
+    }
+    else{
+        hambox.style.transform = "translateX(-100vw)";
+        clickR.style.opacity = "1"
+        count = 1;
+    }
+    
+})
 
 
+document.addEventListener("click" , (e)=>{
+    if(e.target.className == "hamdata1"){
+        var value1 = e.target.textContent;
+        console.log(value1)
+        data(value1);
+        clickR.style.opacity = "1"
+        clickR1.style.opacity = "1"
+        hambox.style.transform = "translateX(-100vw)";
+        count = 1;
+    }
+})
 
 
+clickR.addEventListener("click",()=>{
+    hambox.style.transform = "translateX(-100vw)";
+    clickR.style.opacity = "1";
+    clickR1.style.opacity = "1";
+    count = 1;
+})
 
+clickR1.addEventListener("click",()=>{
+    hambox.style.transform = "translateX(-100vw)";
+    clickR.style.opacity = "1"
+    clickR1.style.opacity = "1"
+    count = 1;
+})
 
 
 

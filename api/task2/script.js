@@ -120,12 +120,13 @@ ham.addEventListener("click" , ()=>{
     if(num == 1){
         cros.setAttribute( "src" , "https://res.cloudinary.com/dsuhb6swy/image/upload/v1765359721/6372150_tj30cc.png" );
         hambox.style.transform = "translateX(3vw)";
-        
+        all.style.opacity = "0.4";
         num = 0;
     }
     else{
         cros.setAttribute( "src" , "https://res.cloudinary.com/dsuhb6swy/image/upload/v1765342049/menu-icon-png-3-lines-11552728985kzvoymuey0_w6isn1.png" );
         hambox.style.transform = "translateX(-100vw)";
+        all.style.opacity = "1";
         
         num = 1;
     }
@@ -135,6 +136,7 @@ ham.addEventListener("click" , ()=>{
 all.addEventListener("click" , ()=>{
     cros.setAttribute( "src" , "https://res.cloudinary.com/dsuhb6swy/image/upload/v1765342049/menu-icon-png-3-lines-11552728985kzvoymuey0_w6isn1.png" );
     hambox.style.transform = "translateX(-100vw)";
+    all.style.opacity = "1";
 
     num = 1;
 })
@@ -154,6 +156,7 @@ document.addEventListener("keypress" , (e)=>{
     if( e.key == "Enter" && document.querySelector(".search").value != "" ){
         var value1 = document.querySelector(".search").value;
         all.innerHTML = "";
+        
         document.querySelector(".search").value = "";
         console.log(value1)
         ok( 0 , value1);

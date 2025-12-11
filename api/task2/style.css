@@ -571,6 +571,59 @@ body{
 }
 
 
+.logoB{
+    width: 15vw;
+    background-color: aliceblue;
+    border-radius: 2vw;
+    
+    position: fixed;
+    cursor: pointer;
+    top: 45vw;
+    right: 2vw;
+
+    /* animation: ani1 7s infinite ease-in-out; */
+}
+
+@keyframes ani1 {
+    0%{
+        top : 45vw;
+    }
+    40%{
+        top : 44vw;
+    }
+    60%{
+         top : 45vw;
+    }
+    70%{
+         top : 44vw;
+    }
+    100%{
+        top : 45vw;
+    }
+    
+}
+
+
+
+@keyframes ani2 {
+    0%{
+        top : 160vw;
+    }
+    40%{
+        top : 158vw;
+    }
+    60%{
+         top : 160vw;
+    }
+    70%{
+         top : 158vw;
+    }
+    100%{
+        top : 160vw;
+    }
+    
+}
+
 
 
 
@@ -598,6 +651,13 @@ body{
         height: 10vw;
         padding-left: 5vw;
         font-size: 3.5vw;
+    }
+    .logoB{
+        top: 160vw;
+        left: 70vw;
+        width: 25vw;
+
+        /* animation: ani2 7s infinite ease-in-out; */
     }
 }
 
