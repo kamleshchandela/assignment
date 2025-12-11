@@ -656,7 +656,7 @@ body{
         top: 160vw;
         left: 70vw;
         width: 25vw;
-
+        border-radius: 5vw;
         /* animation: ani2 7s infinite ease-in-out; */
     }
 }

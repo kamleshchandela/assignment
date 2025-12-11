@@ -22,7 +22,7 @@ body{
     top: 45vw;
     right: 2vw;
 
-    animation: ani1 3s infinite ease-in-out;
+    animation: ani1 10s infinite ease-in-out;
 }
 
 @keyframes ani1 {
@@ -30,7 +30,7 @@ body{
         top : 45vw;
     }
     40%{
-        top : 37vw;
+        top : 40vw;
     }
     60%{
          top : 45vw;
