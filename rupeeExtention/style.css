@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
+
+body {
+  display: flex;
+  margin: 0;
+  padding: 2vw;
+  width: 600px;   /* popup ki width */
+  height: 1500px;  /* popup ki height */
+  height: auto;
+  flex-direction: column;
+  gap: 1vw;
+  box-sizing: border-box;
+  justify-content: start;
+  align-items: center;
+  background-color: #2D2D2D;
+  font-family: 'Orbitron', sans-serif;
+  border: 0.8vw dashed #D99A0E;
+
+}
+
+.btn {
+  width: 20vw;
+  font-size: 3vw;
+  font-weight: 700;
+  height: 7vw;
+  background-color: #D99A0E;
+  color: black;
+  border: none;
+  border-radius: 1vw;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+  font-family: 'Orbitron', sans-serif;
+}
+
+
+#input {
+  width: 35vw;
+  height: 6vw;
+  border-radius: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-size: 2.5vw;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  border: 0.4vw solid #D99A0E;
+  font-weight: 700;
+}
+
+.ans{
+  min-width: 35vw;
+  max-width: auto;
+  background-color: black;
+  color: white;
+  padding-right: 2vw;
+  padding-left: 2vw;
+  height: 6vw;
+  border-radius: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5vw;
+  border: 0.4vw solid #D99A0E;
+  font-weight: 700;
+}
+
+.data{
+  width: 60vw;
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5vw;
+  
+}
+
+.cuntry{
+  width: 20%;
+  border: 0.2vw solid #D99A0E;
+  padding: 1vw;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 1vw;
+  font-size: 2vw;
+  font-weight: 800;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.cuntry:hover{
+  background-color: #D99A0E;
+  color: black;
+}
+
+
+.date{
+  color: red;
+  height: 3vw;
+  font-size: 2.5vw;
+  
+}
+
+.tital{
+  font-size: 4vw;
+  height: 6vw;
+  color: #D99A0E;
+  margin-top: 3vw;
+  
+
+
+}
+
+.select{
+  width: 20vw;
+  font-size: 3vw;
+  font-weight: 700;
+  height: 7vw;
+  background-color: #D99A0E;
+  color: black;
+  border: none;
+  border-radius: 1vw;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  margin-bottom: 3vw;
+  font-family: 'Orbitron', sans-serif;
+}
+
+
+
