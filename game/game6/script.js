@@ -121,12 +121,16 @@ function addinmain(todoList) {
 }
 
 
+
+
+
 document.querySelector(".save").addEventListener("click", function () {
     let data = localStorage.getItem("data");
     if (data) {
         todoList = JSON.parse(data);
         update();
         addinmain(todoList);
+        console.log(data);
     }
 })
 
