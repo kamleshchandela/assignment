@@ -99,8 +99,8 @@ function addinmain(todoList) {
     allTodos.innerHTML = ""
     todoList.forEach(element => {
         var x = `<li id=${element.id} class="todo-item">
-    <p id="task"> ${element.complete ? `<strike>${element.task}</strike>` : element.task} </p>
-    <div class="todo-actions">
+        <p id="task"> ${element.complete ? `<strike>${element.task}</strike>` : element.task} </p>
+            <div class="todo-actions">
                 <button class="complete btn btn-success">
                     <i class=" ci bx bx-check bx-sm"></i>
                 </button>
@@ -113,11 +113,11 @@ function addinmain(todoList) {
         allTodos.innerHTML += x;
 
         localStorage.setItem("data", JSON.stringify(todoList));
-        
-        
+
+
     });
 
-    
+
 }
 
 
