@@ -147,11 +147,21 @@ function search(){
         var google = document.createElement("a") ;
         google.classList.add("wiki") ;
         google.setAttribute("target" , "_blank" ) ;
-        console.log(data.content_urls) ;
+        
         google.style.marginTop = "0vw"
         google.setAttribute("href" , `https://www.google.com/search?q=${apiKey}` ) ;
         google.textContent = "Google" ;
         all.appendChild(google) ;
+
+
+        var youtube = document.createElement("a") ;
+        youtube.classList.add("wiki") ;
+        youtube.setAttribute("target" , "_blank" ) ;
+        
+        youtube.style.marginTop = "0vw"
+        youtube.setAttribute("href" , `https://www.youtube.com/results?search_query=${apiKey}` ) ;
+        youtube.textContent = "Youtube" ;
+        all.appendChild(youtube) ;
 
 
 

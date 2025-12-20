@@ -336,6 +336,8 @@ body {
     .wiki{
         font-size: 3.5vw;
         padding: 3vw;
+        letter-spacing: 0.2vw;
+        font-weight: 800;
         padding-left: 4vw;
         margin: 3vw;
     }
