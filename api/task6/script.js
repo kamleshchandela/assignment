@@ -4,6 +4,59 @@ var all = document.querySelector(".all") ;
 var chat = document.querySelector("chatD1") ;
 var check = 1 ;
 
+var ph = [
+    
+    "Ask me anything…" ,
+    "Enter topic name…" ,
+    "Type your question here…" ,
+    "Enter topic name…" ,
+    "How can I help?" ,
+    "Enter topic name…" ,
+    "Start typing your question…" ,
+    "Enter topic name…" ,
+    "Talk to your AI here…" ,
+    "Enter topic name…" ,
+    "Explain in easy words…" ,
+    "Enter topic name…" ,
+
+]
+
+var i = 0 ;
+
+setInterval(()=>{
+    input.setAttribute("placeholder", ph[i]) ;
+    i++ ;
+
+    if(i > ph.length - 1){
+        i = 0 ;
+    }
+} ,
+
+6000
+
+
+
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 if(!(localStorage.getItem("aiName"))){
     
