@@ -231,6 +231,7 @@ body {
 
     .flex{
         height: 20vw;
+        gap: 4vw;
     }
     #input{
         height: 10vw;
@@ -238,6 +239,7 @@ body {
         border-radius: 5vw;
         border-width: 0.5vw;
         font-size: 4vw ;
+        padding: 5vw ;
     }
     .btn{
         width: 10vw;
@@ -290,6 +292,7 @@ body {
 
     .flex{
         height: 25vw;
+        gap: 3vw;
     }
     #input{
         height: 15vw;
@@ -302,12 +305,12 @@ body {
         font-size: 4.5vw ;
     }
     .btn{
-        width: 13vw;
-        height: 13vw;
+        width: 12vw;
+        height: 12vw;
     }
     .btn img {
-        width: 13.4vw;
-        height: 13.4vw;
+        width: 11.4vw;
+        height: 11.4vw;
     }
 
     .you{

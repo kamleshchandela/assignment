@@ -181,6 +181,15 @@ function search(){
         }
         finally{
             check = 1 ;
+
+            all.scrollTo({
+                top: all.scrollHeight,
+                behavior: "smooth"
+            });
+
+
+
+
         }
 
 
@@ -283,6 +292,7 @@ btn.addEventListener("click" , ()=>{
 }) ;
 
 document.addEventListener("keypress" , (e)=>{
+    
     if(e.key == "Enter" && input.value != "" && check == 1){
         search();
     }
