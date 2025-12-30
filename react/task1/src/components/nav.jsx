@@ -1,34 +1,37 @@
+
+import { Link } from "react-router-dom";
+
 function Nav () {
     return (
     
     <>
 
         <div className="nav">
-            <a href="http://localhost:5175/" >
+            <Link to="/">
             <div className="h1">
                 Home
             </div>
-            </a>
-            <a href="http://localhost:5175/food" >
+            </Link>
+            <Link to="/food">
             <div className="h1">
                 Food
             </div>
-            </a>
-            <a href="http://localhost:5175/Products" >
+            </Link>
+            <Link to="/products">
             <div className="h1">
                 Products
             </div>
-            </a>
-            <a href="http://localhost:5175/Movies" >
+            </Link>
+            <Link to="/movies">
             <div className="h1">
                 Movies
             </div>
-            </a>
-            <a href="http://localhost:5175/recipes" >
+            </Link>
+            <Link to="/recipes">
             <div className="h1">
                 Recipes
             </div>
-            </a>
+            </Link>
         </div>
 
 
