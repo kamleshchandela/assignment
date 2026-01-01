@@ -25,7 +25,7 @@ function App5 () {
     
     
     
-            document.addEventListener("input" , input);
+            // document.addEventListener("input" , input);
             
 
 
@@ -62,7 +62,7 @@ function App5 () {
 }
         
             <div className="food">
-                <input type="text" placeholder='Search Products ...' className='input' />
+                <input type="text" onChange={input} placeholder='Search Products ...' className='input' />
 
                 {/* {FoodData(arr)} */}
 
