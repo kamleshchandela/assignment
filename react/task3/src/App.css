@@ -1,0 +1,206 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+
+.nav {
+  width: 100%;
+  height: 7vw;
+  top: 0;
+  /* border: 2px solid red; */
+  display: flex;
+  position: fixed;
+  background-color: black;
+  justify-content: start;
+  align-items: center;
+
+}
+
+.logo{
+  width: 20vw;
+  height: 5vw;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
+  font-weight: 900;
+  background-color: green;
+  color: white;
+  border-radius: 3vw;
+  margin-left: 5vw;
+
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+               'Segoe UI', Roboto, sans-serif;
+
+  /* text-transform: uppercase; */
+  letter-spacing: 1.5px;
+}
+
+.input{
+  width: 15vw;
+  height: 4vw;
+  margin-left: 47vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-size: 2vw;
+  font-weight: 900;
+  color: white;
+  background-color: gray;
+  border: 0.2vw solid green;
+  border-radius: 2vw;
+}
+
+.ham{
+  width: 5vw;
+  height: 5vw;
+  margin-left: 2vw;
+  display: flex;
+  gap: 0.5vw;
+  align-items:center ;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  cursor: pointer;
+
+}
+
+  .h1 , .h2 , .h3{
+  width: 3vw;
+  position: absolute;
+  height: 0.5vw;
+  border-radius: 2vw;
+  transition: all 0.8s ease-in-out;
+  background-color: white;
+
+}
+
+.h1{
+  margin-top: -2vw;
+}
+.h2{
+  display: block;
+}
+.h3{
+  margin-top: 2vw;
+}
+
+
+
+.h11{
+
+  width: 3vw;
+  position: absolute;
+  height: 0.5vw;
+  border-radius: 2vw;
+  transition: all 0.8s ease-in-out;
+  background-color: white;
+
+  width: 2vw;
+  margin-top: 0;
+  transform: rotate(45deg);
+  position: absolute;
+}
+
+.h21{
+
+  width: 3vw;
+  position: absolute;
+  height: 0.5vw;
+  border-radius: 2vw;
+  transition: all 0.8s ease-in-out;
+  background-color: white;
+
+  display: none;
+  width: 2vw;
+}
+
+.h31{
+
+  width: 3vw;
+  position: absolute;
+  height: 0.5vw;
+  border-radius: 2vw;
+  transition: all 0.8s ease-in-out;
+  background-color: white;
+
+  margin-top: 0;
+  transform: rotate(-45deg);
+  position: absolute;
+  width: 2vw;
+}
+
+
+.listBox{
+  width: 25vw;
+  height: 35vw;
+  border: 3px solid;
+  border-radius: 2vw;
+  background-color: gray ;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  right: -30vw;
+  top: 8vw;
+  transition: all 1s ease-in-out;
+
+
+}
+
+.list{
+  width: 100%;
+  height: 4vw;
+  border: 3px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  background-color: black;
+  color: white;
+  border-radius: 2vw;
+  font-weight: 800;
+  cursor: pointer;
+  margin-top: 0.5vw;
+  padding: 1vw;
+  transition: all 0.3s ease-in-out;
+}
+.list:hover{
+  width: 98%;
+  height: 4vw;
+  border: 3px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  background-color: darkgreen;
+  color: white;
+  border-radius: 2vw;
+}
+
+.photo{
+  width: 50%;
+}
+
+.ans{
+  
+  width: 100%;
+  height: 45vw;
+  display: flex;
+  /* border: 2px solid; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 8vw;
+}
+
+
+
+
+
+
+
+
