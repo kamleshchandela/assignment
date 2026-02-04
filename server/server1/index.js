@@ -38,13 +38,7 @@ console.log("server") ;
 //     console.log("okok")
 // })
 
-
-import express from 'express'
-
-const app = express()
-
-app.get('/', (req, res) => {
-  var data = [
+var data = [
     {name : "kamesh",
     roll : 1234},
     {name : "Himat",
@@ -68,8 +62,13 @@ app.get('/', (req, res) => {
     {name : "Nishit",
     roll : 3749},
 
-];
+]
 
+import express from 'express'
+
+const app = express()
+
+app.get('/', (req, res) => {
   res.send(data)
 })
 
