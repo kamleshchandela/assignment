@@ -58,7 +58,9 @@ var data = [
     {name : "Apela",
     roll : 9567},
     {name : "Vedant",
-    roll : 5728}
+    roll : 5728},
+    {name : "Nishit",
+    roll : 3749},
 
 ]
 
