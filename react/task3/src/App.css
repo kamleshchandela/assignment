@@ -18,6 +18,12 @@
 
 }
 
+.main {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
 .logo{
   width: 20vw;
   height: 5vw;
@@ -197,10 +203,72 @@
   margin-top: 8vw;
 }
 
+.add{
+  display: none;
+}
 
 
 
 
+@media screen and (max-width : 900px) {
+  .nav{
+    height: 20vw;
+  }
+  .logo{
+    width: 50vw;
+    height: 12vw;
+    border-radius: 5vw;
+    font-size: 6vw;
+  }
+  .ans{
+    margin-top: 30vw;
+    height: auto;
+    border: 3px solid;
+  }
+  .photo{
+    width: 100%;
+  }
+  .input{
+    display: none;
+  }
+  .ham{
+    margin-left: 30vw ;
+    
+  }
+  .h1,.h2,.h3{
+    width: 6vw;
+    height: 1vw;
 
-
+  }
+  .h1{
+    margin-top: -4vw;
+  }
+  .h3{
+    margin-top: 4vw;
+  }
+  .h11 , .h31{
+    width: 6vw;
+    height: 1vw;
+  }
+  .listBox{
+    width: 80vw;
+    height: 60vh;
+    margin-top: 15vw
+  }
+  .list{
+    height: 10vw;
+    padding: 2vw;
+    font-size: 5vw;
+  }
+  .list:hover{
+    height: 10vw;
+    /* padding: 2vw; */
+    font-size: 5vw;
+  }
+  .add{
+    margin-top: 10vw;
+    display: flex;
+    width: 100%;
+  }
+}
 

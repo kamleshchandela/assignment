@@ -38,7 +38,7 @@ function List (propes) {
     useEffect(()=>{
         console.log(list.current)
         if(propes.check){
-            list.current.style.right = "-30vw" ;
+            list.current.style.right = "-130vw" ;
         }
         else{
             list.current.style.right = "2vw" ;
