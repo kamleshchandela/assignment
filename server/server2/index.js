@@ -39,7 +39,6 @@ const users = [
 
 app.get("/users", (req, res) => {
   
-
   res.status(200).json(users);
 });
 
@@ -50,7 +49,7 @@ app.get("/:gr_no", (req, res) => {
   const user = arr.find(u => u.studentName === userId);
 
   if (!user) {
-    return res.status(404).json({ message: "User not found" });
+    return res.status(404).json({ message: "User not found" }); 
   }
 
   res.status(200).json(user);
@@ -62,11 +61,20 @@ app.use(express.json());
 
 
 app.post("/users", (req, res) => {
-  const newUser = {
+  console.log(req.body)
+  req.body.map((e , i)=>{
+    var newUser = {
     id: users.length + 1,
-    name: req.body.name,
-    role: req.body.role
+    name: req.body[i].name,
+    role: req.body[i].role
   };
+  users.push(newUser);
+  })
+  // const newUser = {
+  //   id: users.length + 1,
+  //   name: req.body.name,
+  //   role: req.body.role
+  // };
 
   users.push(newUser);
 
@@ -75,6 +83,8 @@ app.post("/users", (req, res) => {
     user: newUser
   });
 });
+
+
 
 
 
